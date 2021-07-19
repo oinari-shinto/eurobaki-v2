@@ -21,8 +21,8 @@
                 <EmailContent>
                      <h1>Получить лучшую цену</h1>
                      <p>Оставьте номер телефона и мы Вам перезвоним!</p>
-                     <form action="#">
-                         <FormWrap onSubmit={sendPhone}>
+                     <form onSubmit={sendPhone} >
+                         <FormWrap >
                              <label htmlFor="phone">
                                  <input type="phone" placeholder="Введите свой телефон" name="user_phone" id="phone"/>
                              </label>
