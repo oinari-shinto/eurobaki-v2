@@ -23,7 +23,8 @@ const Wester = () => (
   <Layout>
     <SEO title="Wester" />
     <Hero HeaderMark="Продажа и изготовление расширительных баков Wester"/>
-    <ProductsWester heading="Wester"/>
+    {/* <ProductsWester heading="Wester"/> */}
+    
     <TableWester />
     <Certificates />
     {/* <PresentationSection /> */}

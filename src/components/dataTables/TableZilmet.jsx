@@ -38,7 +38,7 @@ const TableZilmet = () => {
                       </tr>
                       <tr>
                           <td>ULTRA-PRO 200</td>
-                          <td><b>21,900 руб.</b></td>
+                          <td><b>21 900 руб.</b></td>
                           <td>550</td>
                           <td>1235</td>
                           <td>1 1/4</td>
@@ -49,7 +49,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 300</td>
-                          <td><b>25,200 руб.</b></td>
+                          <td><b>25 200 руб.</b></td>
                           <td>630</td>
                           <td>1365</td>
                           <td>1 1/4</td>
@@ -59,7 +59,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 500</td>
-                          <td><b>44,800 руб.</b></td>
+                          <td><b>44 800 руб.</b></td>
                           <td>750</td>
                           <td>1560</td>
                           <td>1 1/4</td>
@@ -72,7 +72,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr >
                           <td>ULTRA-PRO 750</td>
-                          <td><b>76,600 руб.</b></td>
+                          <td><b>76 600 руб.</b></td>
                           <td>750</td>
                           <td>2075</td>
                           <td>2</td>
@@ -84,7 +84,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 1000</td>
-                          <td><b>96,500 руб.</b></td>
+                          <td><b>96 500 руб.</b></td>
                           <td>850</td>
                           <td>2100</td>
                           <td>2</td>
@@ -95,7 +95,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 1500</td>
-                          <td><b>189,800 руб.</b></td> 
+                          <td><b>189 800 руб.</b></td> 
                           <td>960</td>
                           <td>2420</td>
                           <td>2</td>
@@ -105,7 +105,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 2000</td>
-                          <td><b>265,800 руб.</b></td> 
+                          <td><b>265 800 руб.</b></td> 
                           <td>1100</td>
                           <td>2553</td>
                           <td>2</td>
@@ -115,7 +115,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 3000</td>
-                          <td><b>459,800 руб.</b></td> 
+                          <td><b>459 800 руб.</b></td> 
                           <td>1200</td>
                           <td>2800</td>
                           <td>2 1/2</td>
@@ -125,7 +125,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 4000</td>
-                          <td><b>638,300 руб.</b></td> 
+                          <td><b>638 300 руб.</b></td> 
                           <td>1450</td>
                           <td>3180</td>
                           <td>2 1/2</td>
@@ -135,7 +135,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 5000</td>
-                          <td><b>829,100 руб.</b></td> 
+                          <td><b>829 100 руб.</b></td> 
                           <td>1450</td>
                           <td>3700</td>
                           <td>3</td>

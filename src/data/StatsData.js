@@ -27,7 +27,7 @@ export const StatsData = [
         `}
         />),
         title: "Быстрая доставка и поддержка",
-        desc: "Поставляем в течении 2 дней"
+        desc: "Отгрузка в день оплаты"
     },
     {
         icon: (<FaMoneyCheck
