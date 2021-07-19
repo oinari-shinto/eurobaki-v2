@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
 import Video from '../assets/videos/video-3.mp4'
-import Component1 from './Component1'
+
 import HeroH1 from './animeComponents/HeroH1'
 import { ContactComponent } from './modal/ContactComponent'
 

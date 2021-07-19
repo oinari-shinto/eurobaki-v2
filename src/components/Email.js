@@ -1,6 +1,6 @@
     import React from 'react'
     import styled from 'styled-components'
-    import EmailBg from '../assets/images/sklad.jpg'
+    import EmailBg from '../assets/images/Sklad.jpg'
     import { Button } from './Button'
     import emailjs from 'emailjs-com'
 

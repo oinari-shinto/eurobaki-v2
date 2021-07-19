@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import { FaBars } from 'react-icons/fa'
-import { menuData } from '../data/menuData'
+import { menuData } from '../data/MenuData'
 import { Button } from "./Button"
 import { ContactComponent } from "./modal/ContactComponent"
 

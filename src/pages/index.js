@@ -2,7 +2,7 @@ import React from "react"
 
 
 import styled from 'styled-components'
-import Layout from "../layouts/mainLayout"
+import Layout from "../layouts/MainLayout"
 import SEO from "../components/Seo"
 import { Hero } from "../components/Hero"
 import Products from "../components/Products"
