@@ -5,7 +5,7 @@ import { FaTimes } from 'react-icons/fa';
 import styled from 'styled-components'
 
 
-import { menuData } from '../data/menuData';
+import { menuData } from '../data/MenuData';
 import { Button } from './Button';
 
 
