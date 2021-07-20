@@ -1,6 +1,6 @@
     import React from 'react'
     import styled from 'styled-components'
-    import EmailBg from '../assets/images/web-baki.png'
+    import EmailBg from '../assets/images/Sklad.jpg'
 
     import 'bootstrap/dist/css/bootstrap.min.css'
     import { Carousel } from 'react-bootstrap'
