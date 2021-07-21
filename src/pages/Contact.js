@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <Layout>
             <SEO title="Contact" />
-            <ContactSection HeaderMark="EuroBaki Best site ever"/>
+            <ContactSection HeaderMark="Адреса наших складов и точек выдачи"/>
             
             
             

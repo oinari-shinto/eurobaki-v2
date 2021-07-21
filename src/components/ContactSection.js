@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
-import Image from '../assets/images/Sklad.jpg'
-
-
+import Image from '../assets/images/warehouse.jpg'
+import Video from '../assets/videos/video-3.mp4'
+import EmailBg from '../assets/images/Sklad.jpg'
 import { ContactComponent } from './modal/ContactComponent'
 import ContactInfo from './animeComponents/ContactInfo'
 
@@ -16,7 +16,7 @@ export const ContactSection = ({HeaderMark}) => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={Image}  />
+                <VideoBg src={Image} type="image/jpg" no-repeat center/>
             </HeroBg>
             <HeroContent>
                 <HeroItems>
@@ -35,18 +35,29 @@ export const ContactSection = ({HeaderMark}) => {
 
 
 const HeroContainer = styled.div`
-    background: #0c0c0c;
+   /*  background: url('../assets/images/warehouse.jpg') center center/cover no-repeat; */
+   background: linear-gradient(
+            180deg, rgba(0,0,0,0.5) 0%, 
+            rgba(0,0,0,0.5) 35%, 
+            rgba(0,0,0, 0.1) 100%
+            ),
+            url(${Image}) no-repeat center;
+            
+    background-size: cover;   
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2); */
+    object-fit: contain;
     display: flex;
     justify-content: center;
-    color: #fff;
+    
     align-items: center;
     height: 100vh;
+    
     padding: 0 1rem;
     position: relative;
     margin-top: -80px;
     
 
-    :before {
+    /* :before {
         content: "";
         position: absolute;
         top: 0;
@@ -60,7 +71,7 @@ const HeroContainer = styled.div`
             rgba(0,0,0,0.6) 100%
         ),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
-    }
+    } */
 `
 
 const HeroBg = styled.div`
