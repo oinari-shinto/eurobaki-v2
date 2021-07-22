@@ -17,7 +17,7 @@ const Header = ({toggle}) => {
 
   return (
     <Nav>
-      <NavLink to="/">EuroBaki <br />   8 (812) 317-00-32</NavLink>
+      <NavLink to="/">EuroBaki <br />   8 (812) 317-00-32 <br /> info@30bar.ru</NavLink>
       <MenuBars onClick={toggle}/>
       <NavMenu>
         {menuData.map((item, index) => (
