@@ -52,7 +52,7 @@ function getProducts(data) {
                 <ProductInfo>
                   <TextWrap>
                     <ImLocation />
-                    <ProductTitle to="/wester">{item.node.name}</ProductTitle>
+                    <ProductTitle to="/Wester">{item.node.name}</ProductTitle>
                   </TextWrap>
                   <Button to='/products' primary="true" round="true"
                   css={`

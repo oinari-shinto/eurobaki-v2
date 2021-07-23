@@ -24,6 +24,8 @@ export const Hero = ({HeaderMark}) => {
                     {/* <HeroH1>Продажа и изготовление расширительных баков</HeroH1> */}
                     {/* <HeroP>Завод производство. Доставка по России</HeroP> */}
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
+                    <br/>
+                    <Button to='/TableWester' primary="true" big="true" round="true">Прайс</Button>
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
                 </HeroItems>
             </HeroContent>

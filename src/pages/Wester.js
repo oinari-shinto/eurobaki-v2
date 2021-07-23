@@ -7,12 +7,12 @@ import SEO from "../components/Seo"
 
 
 import { Hero } from "../components/Hero"
-import ProductsWester from "../components/ProductsWester"
+
 import Certificates from "../components/CertificatesWester"
 import Stats from "../components/Stats"
 import Email from "../components/Email"
 import TableWester from "../components/dataTables/TableWester";
-
+import ScrollToTop from "../components/ScrollToTop"
 
 
 
@@ -21,6 +21,7 @@ import TableWester from "../components/dataTables/TableWester";
 
 const Wester = () => (
   <Layout>
+    <ScrollToTop />
     <SEO title="Wester" />
     <Hero HeaderMark="Продажа и изготовление расширительных баков Wester"/>
     {/* <ProductsWester heading="Wester"/> */}
