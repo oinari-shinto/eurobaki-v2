@@ -47,7 +47,7 @@ const TableReflex = () => {
         <div>
             <TableSetting>
                <Container>
-                  <Table responsive striped bordered>
+                  <Table id="table" responsive striped bordered>
                       <thead>
                         <tr>
                           <th>Model / Объем, л</th>

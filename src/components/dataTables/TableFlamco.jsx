@@ -18,7 +18,7 @@ const TableFlamco = () => {
         <div>
             <TableSetting>
                <Container>
-                  <Table responsive  bordered>
+                  <Table id="table" responsive  bordered>
                       <thead>
                         <tr>
                           <th>Model / Объем, л</th>

@@ -6,6 +6,8 @@ import Video from '../assets/videos/video-3.mp4'
 import HeroH1 from './animeComponents/HeroH1'
 import { ContactComponent } from './modal/ContactComponent'
 
+import { Link } from 'react-scroll'
+
 export const Hero = ({HeaderMark}) => {
     const [showModal, setShowModal] = useState(false);
 
@@ -25,7 +27,8 @@ export const Hero = ({HeaderMark}) => {
                     {/* <HeroP>Завод производство. Доставка по России</HeroP> */}
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <br/>
-                    <Button to='/TableWester' primary="true" big="true" round="true">Прайс</Button>
+                    <Link to="table" smooth={true} duration={1000}><Button  primary="true" big="true" round="true">Прайс</Button></Link>
+                    
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
                 </HeroItems>
             </HeroContent>
