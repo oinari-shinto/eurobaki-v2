@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
 import Image from '../assets/images/warehouse.jpg'
-import Video from '../assets/videos/video-3.mp4'
+
 import EmailBg from '../assets/images/Sklad.jpg'
 import { ContactComponent } from './modal/ContactComponent'
 import ContactInfo from './animeComponents/ContactInfo'
@@ -57,7 +57,7 @@ const HeroContainer = styled.div`
     margin-top: -80px;
     
 
-    /* :before {
+    :before {
         content: "";
         position: absolute;
         top: 0;
@@ -71,7 +71,12 @@ const HeroContainer = styled.div`
             rgba(0,0,0,0.6) 100%
         ),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
-    } */
+    }
+    @media screen and (max-width: 280px) {
+    padding: 0 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
 `
 
 const HeroBg = styled.div`

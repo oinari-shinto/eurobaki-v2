@@ -67,7 +67,7 @@ export default function ContactInfo
           <InfoColumn >
           <LeftCol>
               Санкт-Петербург: ул. Домостроительная д.4 пом.13 (склад) <br/>
-              Санкт-Петербург: Тихорецкий проспект 17б (офис)<br/>
+              Санкт-Петербург: Тихорецкий пр. 17б <br/>
               Москва М.О., р-н Шаховской, р.п. Шаховская, Волочановское шоссе, д. 12, стр. Б <br/>
               Белгород, Терминал тк<br/>
               Брянск,Терминал тк<br/>
@@ -87,7 +87,7 @@ export default function ContactInfo
               Липецк, Терминал тк<br/>
               Набережные Челны, Терминал тк<br/>
               Нижний Новгород, Терминал тк<br/>
-              Новороссийск, Терминал тк<br/>
+              Новороссийск, Терм. тк<br/>
               Новосибирск, Терминал тк<br/>
               Оренбург, Терминал тк<br/>
               Орёл , Терминал тк<br/>
@@ -97,7 +97,7 @@ export default function ContactInfo
               Пятигорск, Терминал тк<br/>
           </CentrCol>
           <RightCol>
-              Ростов-на-Дону, Терминал тк<br/>
+              Ростов-на-Дону, Терм. тк<br/>
               Рязань, Терминал тк<br/>
               Самара, Терминал тк<br/>
               Смоленск Терминал тк <br/>
@@ -113,13 +113,13 @@ export default function ContactInfo
               Уфа Терминал тк<br/>
               Чебоксары, Терминал тк<br/>
               Челябинск,Терминал тк<br/>
-              Ярославль, Терминал тк <br/>
+              Ярославль, Терминал тк  
           </RightCol>
           </InfoColumn>
           
 
       </HeroP>
-      <HeroP>почта: info@30bar.ru</HeroP>
+      <HeroP>&nbsp;</HeroP>
     </AnimeHeader>
     
   );
@@ -163,9 +163,10 @@ const HeroP = styled.p`
     text-align: left;
     padding: 0 1rem;
     opacity: 1;
-    font-size: clamp(1rem, 3vw, 1rem);
+    font-size: clamp(0.5rem, 2vw, 1rem);
     margin-bottom: 2rem;
     font-weight: 400;
+    
 `
 // export default function HeroH1({HeaderMark}) {
     

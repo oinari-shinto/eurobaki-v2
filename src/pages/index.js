@@ -1,9 +1,9 @@
 import React from "react"
 
 
-import styled from 'styled-components'
+
 import Layout from "../layouts/MainLayout"
-import SEO from "../components/Seo"
+import Seo from "../components/Seo"
 import { Hero } from "../components/Hero"
 import Products from "../components/Products"
 import Certificates from "../components/CertificatesWester"
@@ -21,7 +21,7 @@ const IndexPage = () =>  {
 
     return (
     <Layout >
-      <SEO title="Home" />
+      <Seo title="Home" />
       <Hero HeaderMark="Продажа и изготовление расширительных баков"/>
       <Products heading="Выберите расширительный бак"/>
       <Certificates  />
@@ -41,4 +41,3 @@ const IndexPage = () =>  {
  
 export default IndexPage
 
-const Container = styled.div``
