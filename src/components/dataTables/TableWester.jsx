@@ -1,9 +1,8 @@
 import React from 'react'
 import { Container, Table } from 'react-bootstrap'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import {useStaticQuery, graphql} from 'gatsby'
+
 
 import ImageTab1 from '../../assets/images/wrv-top.jpg'
 import ImageTab2 from '../../assets/images/wrv2-1000.jpg'
@@ -74,7 +73,7 @@ const TableWester = () => {
                           <td>36</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="3" ><img src={ImageTab1} width="250px" /></td>
+                          <td rowSpan="3" ><img src={ImageTab1} alt="Wester WRV 500" width="250px" /></td>
                         </tr>
                         <tr>
                           <td>WRV 300</td>
@@ -108,7 +107,7 @@ const TableWester = () => {
                           <td>130</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="8"   ><img   src={ImageTab2} width="250px"     /><p>Мембрана: Сменная (Италия)<br/>Завод: Москва</p></td>
+                          <td rowSpan="8"   ><img   src={ImageTab2} alt="Wester WRV 1000" width="250px" /><p>Мембрана: Сменная (Италия)<br/>Завод: Москва</p></td>
                           
                         </tr>
                         <tr>
@@ -198,7 +197,7 @@ const TableWester = () => {
                           <td>145</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="3" ><img src={ImageTab3} width="250px" /></td>
+                          <td rowSpan="3" ><img src={ImageTab3} alt="Wester WAV 500" width="250px" /></td>
                         </tr>
                         <tr>
                           <td>WAV 300</td>
@@ -232,7 +231,7 @@ const TableWester = () => {
                           <td>145</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="9"   ><img   src={ImageTab4} width="250px"     /><p>Мембрана: Сменная (Италия)<br/>Завод: Москва</p></td>
+                          <td rowSpan="9"   ><img   src={ImageTab4} width="250px" alt="Wester WAV 1000"/><p>Мембрана: Сменная (Италия)<br/>Завод: Москва</p></td>
                           
                         </tr>
                         <tr>

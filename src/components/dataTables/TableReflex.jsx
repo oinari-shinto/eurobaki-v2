@@ -1,9 +1,8 @@
 import React from 'react'
 import { Container, Table } from 'react-bootstrap'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import {useStaticQuery, graphql} from 'gatsby'
+
 
 import ImageTab1 from '../../assets/images/reflex-n-small.jpg'
 import ImageTab2 from '../../assets/images/reflex-g-small.png'
@@ -75,7 +74,7 @@ const TableReflex = () => {
                           <td>36.7</td>
                           <td>6</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowspan="8" ><br></br><img src={ImageTab1} width="250px" /></td>
+                          <td rowSpan="8" ><br></br><img src={ImageTab1} alt="Reflex N 1000" width="250px" /></td>
                         </tr>
                         <tr>
                           <td>Reflex N250</td>
@@ -150,8 +149,10 @@ const TableReflex = () => {
                           <td>6</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
-                        <br></br>
-                        <tr></tr>
+                      </tbody>
+                      </Table>
+                      <Table>
+                      <tbody>
                         <tr>
                         <td colSpan="8" ><p>Расширительные баки Reflex G (сменная мембрана)</p></td>
                         </tr>
@@ -164,7 +165,7 @@ const TableReflex = () => {
                           <td>33.4</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="6" ><img src={ImageTab2} width="250px" /></td>
+                          <td rowSpan="6" ><img src={ImageTab2} alt="Reflex G 1000" width="250px" /></td>
                         </tr>
                         <tr>
                           <td>Reflex G300</td>
@@ -227,7 +228,7 @@ const TableReflex = () => {
                           <td>1 1/2</td>
                           <td>174</td>
                           <td>10</td>
-                          <td rowSpan="5"> <br></br><img src={ImageTab3} width="250px"/><p></p></td>
+                          <td rowSpan="5"> <br></br><img src={ImageTab3} alt="Reflex G 2000" width="250px"/><p></p></td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -270,7 +271,11 @@ const TableReflex = () => {
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
-                        <br></br>
+                      </tbody>
+                      <tbody>
+                      <tr></tr>
+                        
+                        
                         
                         <tr>
                         <td colSpan="8" ><p>Расширительные баки Reflex DE (сменная мембрана)</p></td>
@@ -284,7 +289,7 @@ const TableReflex = () => {
                           <td>36.5</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="6" ><img src={ImageTab4} width="250px" /></td>
+                          <td rowSpan="6" ><img src={ImageTab4} alt="Reflex DE 1000" width="250px" /></td>
                         </tr>
                         <tr>
                           <td>Reflex DE300</td>
@@ -347,7 +352,7 @@ const TableReflex = () => {
                           <td>1 1/2</td>
                           <td>214</td>
                           <td>10</td>
-                          <td rowSpan="5"> <br></br><img src={ImageTab5} width="250px"/><p></p></td>
+                          <td rowSpan="5"> <br></br><img src={ImageTab5} alt="Reflex DE 2000" width="250px"/><p></p></td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>

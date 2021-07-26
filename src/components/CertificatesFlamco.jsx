@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+/* import Img from 'gatsby-image' */
 import {IoMdCheckmarkCircleOutline} from 'react-icons/io'
 import {FaRegLightbulb} from 'react-icons/fa'
 import { graphql, useStaticQuery } from 'gatsby'
@@ -225,13 +225,13 @@ const ContainerScroll = styled.div`
     
     
 `
-const Images = styled(Img)`
-    /* border-radius: 10px; */
+/* const Images = styled(Img)`
+    border-radius: 10px;
     height: 750px;
-    /* min-width: 580px; */
+    min-width: 580px;
     
 
-`
+` */
 
 
 

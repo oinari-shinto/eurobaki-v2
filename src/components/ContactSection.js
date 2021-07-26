@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Button } from './Button'
 import Image from '../assets/images/warehouse.jpg'
 
-import EmailBg from '../assets/images/Sklad.jpg'
+
 import { ContactComponent } from './modal/ContactComponent'
 import ContactInfo from './animeComponents/ContactInfo'
 

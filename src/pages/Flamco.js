@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 
 import Layout from "../layouts/MainLayout"
-import SEO from "../components/Seo"
+import Seo from "../components/Seo"
 
 
 import { Hero } from "../components/Hero"
@@ -21,7 +21,7 @@ import TableFlamco from "../components/dataTables/TableFlamco";
 
 const Flamco = () => (
   <Layout>
-    <SEO title="Flamco" />
+    <Seo title="Flamco" />
     <Hero HeaderMark="Продажа и изготовление расширительных баков Flamco"/>
     <ProductsFlamco heading="Flamco"/>
     <TableFlamco />

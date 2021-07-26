@@ -1,9 +1,8 @@
 import React from 'react'
 import { Container, Table } from 'react-bootstrap'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import {useStaticQuery, graphql} from 'gatsby'
+
 
 import ImageTab2 from '../../assets/images/zilmet-ultra-1000.jpg'
 import ImageTab1 from '../../assets/images/zilmet-small.jpg'
@@ -45,7 +44,7 @@ const TableZilmet = () => {
                           <td>44.5</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="3" ><img src={ImageTab1} width="250px" /></td>
+                          <td rowSpan="3" ><img src={ImageTab1} alt="Zilmet bak ultra" width="250px" /></td>
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 300</td>
@@ -79,7 +78,7 @@ const TableZilmet = () => {
                           <td>150</td>
                           <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
-                          <td rowSpan="7"   ><br/><img   src={ImageTab2} width="250px"     /><p>Мембрана: Сменная (Италия)</p></td>
+                          <td rowSpan="7"   ><br/><img   src={ImageTab2} width="250px" alt="Zilmet ultra 1000"/><p>Мембрана: Сменная (Италия)</p></td>
                           
                         </tr>
                         <tr>

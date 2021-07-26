@@ -1,9 +1,8 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
-import { resetWarningCache } from 'prop-types'
 import {ImLocation} from 'react-icons/im'
 import Link from 'gatsby-link'
 
@@ -71,24 +70,7 @@ function getProducts(data) {
 
 export default ProductsReflex
 
-const animateOpacity = keyframes`
-  0% {
-    opacity: -1;
-  }
-  100% {
-    opacity: 1;
-  }
 
-`;
-
-const animatePosition = keyframes`
-  0% {
-    transform: translateY(100px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-`
 
 const ProductsContainer = styled.div`
     min-height: 50vh;
@@ -98,14 +80,14 @@ const ProductsContainer = styled.div`
     
 `
 const ProductsHeading = styled.div`
-    animation: ${animateOpacity} 5s  , ${animatePosition} 2s ;
+    
     font-size: clamp(1.2rem, 5vw, 3rem);
     margin-bottom: 5rem;
     text-align: center;
     color: #000;
 `
 const ProductsWrapper = styled.div`
-  animation: ${animateOpacity} 5s  , ${animatePosition} 2s ;
+  
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 
 import Layout from "../layouts/MainLayout"
-import SEO from "../components/Seo"
+import Seo from "../components/Seo"
 
 
 import { Hero } from "../components/Hero"
@@ -22,7 +22,7 @@ import TableZilmet from "../components/dataTables/TableZilmet"
 
 const Zilmet = () => (
   <Layout>
-    <SEO title="Zilmet" />
+    <Seo title="Zilmet" />
     <Hero HeaderMark="Продажа и изготовление расширительных баков Zilmet"/>
     <ProductsZilmet heading="Zilmet"/>
     <TableZilmet />
