@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Table } from 'react-bootstrap'
-import Link from 'gatsby-link'
+
 import styled from 'styled-components'
 
-import {useStaticQuery, graphql} from 'gatsby'
+
 
 import ImageTab2 from '../../assets/images/flexcon-r-1000.jpg'
 import ImageTab1 from '../../assets/images/flexcon-r-small.jpg'
@@ -34,7 +34,7 @@ const TableFlamco = () => {
                       </thead>
                       <tbody>
                       <tr>
-                        <td colspan="8" ><p>Бак расширительный Flexcon R (не сменная мембрана)</p></td>
+                        <td colSpan="8"><p>Бак расширительный Flexcon R (не сменная мембрана)</p></td>
                       </tr>
                       <tr>
                           <td>Flexcon R 200/1,5</td>
@@ -68,7 +68,7 @@ const TableFlamco = () => {
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
-                        <td colspan="8" ><p></p></td>
+                        <td colSpan="8" ><p></p></td>
                         </tr>
                         <tr >
                           <td>Flexcon R 500/1,5</td>

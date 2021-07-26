@@ -34,7 +34,7 @@ const TableZilmet = () => {
                       </thead>
                       <tbody>
                       <tr>
-                        <td colspan="8" ><p>Гидроаккумулятор/Бак расширительный Zilmet ULTRA-PRO</p></td>
+                        <td colSpan="8" ><p>Гидроаккумулятор/Бак расширительный Zilmet ULTRA-PRO</p></td>
                       </tr>
                       <tr>
                           <td>ULTRA-PRO 200</td>
@@ -68,7 +68,7 @@ const TableZilmet = () => {
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
-                        <td colspan="8" ><p></p></td>
+                        <td colSpan="8" ><p></p></td>
                         </tr>
                         <tr >
                           <td>ULTRA-PRO 750</td>

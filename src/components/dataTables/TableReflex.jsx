@@ -63,7 +63,7 @@ const TableReflex = () => {
                       </thead>
                       <tbody>
                         <tr>
-                        <td colspan="8" ><p>Расширительные баки Reflex N</p></td>
+                        <td colSpan="8" ><p>Расширительные баки Reflex N</p></td>
                         </tr>
 
                         <tr>
@@ -153,7 +153,7 @@ const TableReflex = () => {
                         <br></br>
                         <tr></tr>
                         <tr>
-                        <td colspan="8" ><p>Расширительные баки Reflex G (сменная мембрана)</p></td>
+                        <td colSpan="8" ><p>Расширительные баки Reflex G (сменная мембрана)</p></td>
                         </tr>
                         <tr>
                           <td>Reflex G200</td>
@@ -273,7 +273,7 @@ const TableReflex = () => {
                         <br></br>
                         
                         <tr>
-                        <td colspan="8" ><p>Расширительные баки Reflex DE (сменная мембрана)</p></td>
+                        <td colSpan="8" ><p>Расширительные баки Reflex DE (сменная мембрана)</p></td>
                         </tr>
                         <tr>
                           <td>Reflex DE200</td>
