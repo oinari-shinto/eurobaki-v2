@@ -151,7 +151,7 @@ const TableReflex = () => {
                         </tr>
                       </tbody>
                       </Table>
-                      <Table>
+                      <Table responsive striped bordered>
                       <tbody>
                         <tr>
                         <td colSpan="8" ><p>Расширительные баки Reflex G (сменная мембрана)</p></td>

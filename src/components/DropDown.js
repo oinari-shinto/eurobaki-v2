@@ -1,9 +1,8 @@
-
+import React, {useState} from 'react'
 import { Link } from 'gatsby';
-import React from 'react'
 import { FaTimes } from 'react-icons/fa';
 import styled from 'styled-components'
-
+import { ContactComponent } from './modal/ContactComponent'
 
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
@@ -11,12 +10,19 @@ import { Button } from './Button';
 
 
 const DropDown = ({ isOpen, toggle }) => {
+    const [showModal, setShowModal] = useState(false);
+
+    const openModal = () => {
+    setShowModal(prev => !prev);
+    };
     return (
-        <DropdownContainer isOpen={isOpen} onClick={toggle}>
+        <DropdownContainer isOpen={isOpen} >
+        <ContactComponent showModal={showModal} setShowModal={setShowModal} />
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
             <DropdownWrapper>
+            
                 <DropdownMenu>
                     {menuData.map((item, index) => (
                        <DropdownLink to={item.link} key={index}>
@@ -25,10 +31,12 @@ const DropDown = ({ isOpen, toggle }) => {
                     ))}
                 </DropdownMenu>
                 <BtnWrap>
-                    <Button primary="true" round="true" to="/contact">
+                    <Button primary="true" round="true" onClick={openModal}>
                         Заказать звонок
                     </Button>
+                    
                 </BtnWrap>
+               
             </DropdownWrapper>
 
         </DropdownContainer>
