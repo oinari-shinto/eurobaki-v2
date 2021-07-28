@@ -96,7 +96,7 @@ const TableWester = () => {
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
-                        <td colspan="8" ><p></p></td>
+                        <td colSpan="8" ><p></p></td>
                         </tr>
                         <tr >
                           <td>WRV 750</td>
@@ -183,8 +183,10 @@ const TableWester = () => {
                           
                         </tr>
                         <tr></tr>
-                        
-                        <br></br>
+                      </tbody>
+                      </Table>
+                      <Table responsive  bordered>
+                      <tbody>
                         <tr>
                         <td colSpan="8" ><p>Расширительные баки Wester WAV для водоснабжения</p></td>
                         </tr>
