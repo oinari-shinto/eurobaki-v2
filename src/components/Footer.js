@@ -8,29 +8,34 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterDesc>
                     <h1>30 BAR</h1>
-                    <p>Доставка по всей России.</p>
+                    
                     
                 </FooterDesc>
+                
+               
                 <FooterLinkItems>
-                    <FooterLinkTitle>Как с нами связаться</FooterLinkTitle>
-                    <FooterLink to="/about">Контакты</FooterLink>
-                    <FooterLink to="/">Поддержка</FooterLink>
-                    <FooterLink to="/">Оставить заявку</FooterLink>
-                </FooterLinkItems>
+                    <FooterLinkTitle>Объекты</FooterLinkTitle>
+                    <FooterLink to="/Contact">Фото</FooterLink>
+                    <FooterLink to="/Contact">Видео</FooterLink>
+                    
+            </FooterLinkItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
             <FooterLinkItems>
                     <FooterLinkTitle>Расширительные баки</FooterLinkTitle>
-                    <FooterLink to="/about">Контакты</FooterLink>
-                    <FooterLink to="/">Поддержка</FooterLink>
+                    <FooterLink to="/Contact">Контакты</FooterLink>
+                    <FooterLink to="/Contact">Поддержка</FooterLink>
                     <FooterLink to="/">Оставить заявку</FooterLink>
                 </FooterLinkItems>
-                <FooterLinkItems>
-                    <FooterLinkTitle>Фото/Видео объектов</FooterLinkTitle>
-                    <FooterLink to="/about">Контакты</FooterLink>
-                    <FooterLink to="/">Поддержка</FooterLink>
+            
+            <FooterLinkItems>
+                    <FooterLinkTitle>Как с нами связаться</FooterLinkTitle>
+                    <FooterLink to="/Contact">Контакты</FooterLink>
+                    <FooterLink to="/Contact">Поддержка</FooterLink>
                     <FooterLink to="/">Оставить заявку</FooterLink>
                 </FooterLinkItems>
+           
+                
             </FooterLinksWrapper>
         </FooterContainer>
     )
@@ -79,6 +84,12 @@ const FooterLinkItems = styled.div`
 const FooterLinkTitle = styled.h2`
     font-size: 14px;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 400px) {
+       font-size: 14px;
+       margin-bottom: 6px;
+       color: red;
+    }
 `
 const FooterLink = styled(Link)`
     text-decoration: none;
@@ -89,5 +100,9 @@ const FooterLink = styled(Link)`
     &:hover {
         color: #f26a2e;
         transition: 0.3s ease-out;
+    }
+    @media screen and (max-width: 400px) {
+       font-size: 12px;
+       margin-bottom: 6px;
     }
 `
