@@ -23,9 +23,9 @@ const Footer = () => {
             <FooterLinksWrapper>
             <FooterLinkItems>
                     <FooterLinkTitle>Расширительные баки</FooterLinkTitle>
-                    <FooterLink to="/Contact">Контакты</FooterLink>
-                    <FooterLink to="/Contact">Поддержка</FooterLink>
-                    <FooterLink to="/">Оставить заявку</FooterLink>
+                    <FooterLink to="/Contact">Оплата</FooterLink>
+                    <FooterLink to="/Contact">Доставка</FooterLink>
+                    <FooterLink to="/">Гарантии</FooterLink>
                 </FooterLinkItems>
             
             <FooterLinkItems>

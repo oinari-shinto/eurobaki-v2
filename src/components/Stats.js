@@ -8,7 +8,7 @@ import {StatsData} from '../data/StatsData'
 function Stats() {
     return (
         <StatsContainer>
-            <Heading>Что мы пожем предложить</Heading>
+            <Heading>Что мы можем предложить</Heading>
             <Wrapper>
                 {StatsData.map((item, index) => {
                     return (

@@ -22,7 +22,7 @@ const Contact = () => {
             
             
             <Email />
-            <Link to="/">Go back to the homepage</Link>
+            <Link to="/">На главную</Link>
             
             
       </Layout>

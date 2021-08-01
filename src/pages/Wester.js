@@ -31,7 +31,7 @@ const Wester = () => (
     {/* <PresentationSection /> */}
     <Stats />
     <Email />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">На главную</Link>
     
     {/* <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
