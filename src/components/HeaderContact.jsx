@@ -26,7 +26,7 @@ export default HeaderContact
 const Nav2 = styled.nav`
   background: transparent;
   height: 0;
-  top: 35px;
+  top: 15px;
   display: flex;
   justify-content: space-between;
   padding: 0rem calc((100vw - 1300px) /2);

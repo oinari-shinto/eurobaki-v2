@@ -3,20 +3,72 @@
         "img": "../assets/images/reflex-N-1000.jpg",
         "alt": "Reflex",
         "name": "Reflex",
-        "button": "Купить",
+        "button": "Цены",
         "link": "/Reflex",
-        "mark": "Reflex",
+        "mark": "Reflex-main",
         "page": "main"
     },
     {
         "img": "../assets/images/flamco-1000.png",
         "alt": "Flamco",
         "name": "Flamco",
-        "button": "Купить",
+        "button": "Цены",
         "link": "/Flamco",
         "page": "main",
-        "mark": "Flamco"
+        "mark": "Flamco-main"
     },
+    {
+        "img": "../assets/images/zilmet-1000.jpg",
+        "alt": "Zilmet Ultra Pro",
+        "name": "Zilmet Ultra Pro",
+        "button": "Цены",
+        "link": "/Zilmet",
+        "page": "main",
+        "mark": "Zilmet-main"
+    },
+    {
+        "img": "../assets/images/wrv2-1000.jpg",
+        "alt": "Wester",
+        "name": "Wester",
+        "button": "Цены",
+        "link": "/Wester",
+        "page": "main",
+        "mark": "Wester-main"
+        
+    },
+
+    
+    {
+        "img": "../assets/images/wrv2-1000.jpg",
+        "alt": "Wester WRV",
+        "name": "Wester WRV",
+        "button": "Купить",
+        "link": "/Wester",
+        "page": "main",
+        "mark": "Wester"
+        
+    },
+    {
+        "img": "../assets/images/wav-1000.png",
+        "alt": "Wester WAV",
+        "name": "Wester WAV",
+        "button": "Купить",
+        "link": "/Wester",
+        "page": "main",
+        "mark": "Wester"
+        
+    },
+
+    {
+        "img": "../assets/images/reflex-N-1000.jpg",
+        "alt": "Reflex",
+        "name": "Reflex",
+        "button": "Купить",
+        "link": "/Reflex",
+        "mark": "Reflex",
+        "page": "main"
+    },
+
     {
         "img": "../assets/images/zilmet-1000.jpg",
         "alt": "Zilmet Ultra Pro",
@@ -26,26 +78,20 @@
         "page": "main",
         "mark": "Zilmet"
     },
+
+
     {
-        "img": "../assets/images/wrv2-1000.jpg",
-        "alt": "Wester",
-        "name": "Wester",
+        "img": "../assets/images/flamco-1000.png",
+        "alt": "Flamco",
+        "name": "Flamco",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/Flamco",
         "page": "main",
-        "mark": "Wester-main"
-        
+        "mark": "Flamco"
     },
-    {
-        "img": "../assets/images/wrv2-1000.jpg",
-        "alt": "Wester WRV 1000",
-        "name": "Wester WRV 1000",
-        "button": "Купить",
-        "link": "/Wester",
-        "page": "main",
-        "mark": "Wester"
-        
-    },
+
+
+
     {
         "img": "../assets/images/wrv2-1000.jpg",
         "alt": "Wester WRV 1500",

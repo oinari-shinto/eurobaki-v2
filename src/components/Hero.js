@@ -27,7 +27,9 @@ export const Hero = ({HeaderMark}) => {
                     {/* <HeroP>Завод производство. Доставка по России</HeroP> */}
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <br/>
-                    <Link to="table" smooth={true} duration={1000}><Button  primary="true" big="true" round="true">Прайс</Button></Link>
+                    <PriceButton>
+                        <Link to="table" smooth={true} duration={1000}><Button  primary="true" big="true" round="true">Прайс</Button></Link>            
+                    </PriceButton>
                     
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
                 </HeroItems>
@@ -37,6 +39,10 @@ export const Hero = ({HeaderMark}) => {
 }
 
 
+
+const PriceButton = styled.div`
+    padding: 10px;
+`
 
 
 const HeroContainer = styled.div`

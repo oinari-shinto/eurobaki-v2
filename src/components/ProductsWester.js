@@ -12,7 +12,7 @@ import Link from 'gatsby-link'
 const ProductsWester = ({ heading }) => {
 const data = useStaticQuery(graphql`
  query ProductsQueryWester {
-    allProductsJson (limit: 4, filter: {mark: {eq: "Wester"}}) {
+    allProductsJson (limit: 2, filter: {mark: {eq: "Wester"}}) {
       edges {
         node {
           alt
