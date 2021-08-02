@@ -1,17 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
 import Link from 'gatsby-link'
+import { ContactComponent } from './modal/ContactComponent'
 
 
 
 
 const ProductsWester = ({ heading }) => {
-const data = useStaticQuery(graphql`
- query ProductsQueryWester {
+  const [showModal, setShowModal] = useState(false);
+  const openModal = () => {
+    setShowModal(prev => !prev);
+    };
+    
+  const data = useStaticQuery(graphql`
+  query ProductsQueryWester {
     allProductsJson (limit: 2, filter: {mark: {eq: "Wester"}}) {
       edges {
         node {
@@ -31,58 +37,76 @@ const data = useStaticQuery(graphql`
       
     }
   }
-`)
-// for productImg
-// src={item.node.img.childImageSharp.fluid}
-function getProducts(data) {
+  `)
+  // for productImg
+  // src={item.node.img.childImageSharp.fluid}
+  
+  function getProducts(data){
+
+    
     const productsArray = []
+    
     data.allProductsJson.edges.forEach((item, index) => {
+      
+
+      
         productsArray.push(
+          
             <ProductCard key={index}>
                 <Link to={item.node.link}>
+                
                 <ProductImg 
                     
                      alt={item.node.alt}
                      fluid={item.node.img.childImageSharp.fluid}/>
                 </Link>
                 
-
-
+                
                 <ProductInfo>
                   <TextWrap>
                     <ImLocation />
-                    <ProductTitle to="/Wester">{item.node.name}</ProductTitle>
+                    <ProductTitle>{item.node.name}</ProductTitle>
+                    
                   </TextWrap>
-                  <Button to='/products' primary="true" round="true"
+                  
+                  <Button as="a"  href="/Contact"  primary="true" round="true"
                   css={`
                   position: absolute; 
                   top: 220px;
                   font-size: 14px;
                   `}>
                   {item.node.button}</Button>
+                  
+                  
+                  
+                 
+
                 </ProductInfo>
                 
+                
+                
+               
             </ProductCard>
             
         )
     })
     return productsArray
-}
+  }
 
 
-    return (
+  return (
         <ProductsContainer>
          
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductsWrapper>{getProducts(data)}</ProductsWrapper>
             <ProductsHeading></ProductsHeading>
-           
-         
-             
+            
+            <Button primary="true" big="true" round="true" onClick={ openModal }>Заказать обратный звонок</Button>
+            <ContactComponent showModal={showModal} setShowModal={setShowModal} />
         </ProductsContainer>
         
         
-    )
+  )
 }
 
 export default ProductsWester

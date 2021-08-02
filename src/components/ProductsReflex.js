@@ -47,7 +47,7 @@ function getProducts(data) {
                     <ImLocation />
                     <ProductTitle to="/Reflex">{item.node.name}</ProductTitle>
                   </TextWrap>
-                  <Button to='/products' primary="true" round="true"
+                  <Button to='/Contact' primary="true" round="true"
                   css={`
                   position: absolute; 
                   top: 220px;
