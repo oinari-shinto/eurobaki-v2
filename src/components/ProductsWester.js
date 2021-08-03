@@ -5,17 +5,19 @@ import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
 import Link from 'gatsby-link'
-import { ContactComponent } from './modal/ContactComponent'
+import Modal from './modal/Modal'
+/* import { ContactComponent } from './modal/ContactComponent' */
 
 
 
 
 const ProductsWester = ({ heading }) => {
-  const [showModal, setShowModal] = useState(false);
+  /* const [showModal, setShowModal] = useState(false);
   const openModal = () => {
     setShowModal(prev => !prev);
-    };
-    
+    }; */
+  const [modalActive, setModalActive] = useState(false)
+  
   const data = useStaticQuery(graphql`
   query ProductsQueryWester {
     allProductsJson (limit: 2, filter: {mark: {eq: "Wester"}}) {
@@ -100,9 +102,12 @@ const ProductsWester = ({ heading }) => {
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductsWrapper>{getProducts(data)}</ProductsWrapper>
             <ProductsHeading></ProductsHeading>
-            
-            <Button primary="true" big="true" round="true" onClick={ openModal }>Заказать обратный звонок</Button>
-            <ContactComponent showModal={showModal} setShowModal={setShowModal} />
+            <Button primary="true" big="true" round="true" onClick={() => setModalActive(true) }>Заказать обратный звонок</Button>
+            <Modal active={modalActive} setActive={setModalActive}>
+              <ProductTitle>New Order Form</ProductTitle>
+            </Modal>
+            {/* <Button primary="true" big="true" round="true" onClick={ openModal }>Заказать обратный звонок</Button> */}
+            {/* <ContactComponent showModal={showModal} setShowModal={setShowModal} /> */}  
         </ProductsContainer>
         
         
