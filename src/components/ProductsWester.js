@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
 import Link from 'gatsby-link'
-import Modal from './modal/Modal'
+import Modal2 from './modal/Modal'
 /* import { ContactComponent } from './modal/ContactComponent' */
 
 
@@ -103,9 +103,9 @@ const ProductsWester = ({ heading }) => {
             <ProductsWrapper>{getProducts(data)}</ProductsWrapper>
             <ProductsHeading></ProductsHeading>
             <Button primary="true" big="true" round="true" onClick={() => setModalActive(true) }>Заказать обратный звонок</Button>
-            <Modal active={modalActive} setActive={setModalActive}>
-              <ProductTitle>New Order Form</ProductTitle>
-            </Modal>
+            <Modal2 active={modalActive} setActive={setModalActive}/>
+              
+            
             {/* <Button primary="true" big="true" round="true" onClick={ openModal }>Заказать обратный звонок</Button> */}
             {/* <ContactComponent showModal={showModal} setShowModal={setShowModal} /> */}  
         </ProductsContainer>
