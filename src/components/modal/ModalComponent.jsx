@@ -1,5 +1,5 @@
 import React from 'react'
-import "./modal.css"
+import "./modalComponent.css"
 
 import styled from 'styled-components'
 import { MdClose } from 'react-icons/md'
@@ -7,7 +7,7 @@ import ImageFr from '../../assets/images/email3.jpg'
 import { Button } from '../Button'
 import emailjs from 'emailjs-com'
 
-const Modal = ({active, setActive, children}) => {
+const ModalComponent = ({active, setActive}) => {
     function sendEmail(e) {
         e.preventDefault();
 
@@ -20,8 +20,9 @@ const Modal = ({active, setActive, children}) => {
           e.target.reset()
     }
     return (
-        <div className={active ? "modal active" : "modal"} onClick={() => setActive(false)}>
-            <div className={active ? "modal__content active" : "modal__content"} onClick={ e =>  e.stopPropagation()}>
+        
+        <div className={active ? "modal active" : "modal"} onClick={() => setActive(false)} onKeyDown={() => setActive(false)} role="presentation">
+            <div className={active ? "modal__content active" : "modal__content"} onClick={ e =>  e.stopPropagation()} onKeyDown={e =>  e.stopPropagation()} role="presentation">
             <Background>
             
             <ModalWrapper active={active}>
@@ -46,16 +47,16 @@ const Modal = ({active, setActive, children}) => {
                 </form>
                     
                 </ModalContent>
-                <CloseModalButton aria-label='Close modal' onClick={() => setActive
-                (prev => !prev)} />
+                <CloseModalButton aria-label='Close modal' onClick={() => setActive (prev => !prev)}  />
             </ModalWrapper>
         </Background>
             </div>
         </div>
+        
     )
 }
 
-export default Modal
+export default ModalComponent
 
 
 const Background = styled.div`
