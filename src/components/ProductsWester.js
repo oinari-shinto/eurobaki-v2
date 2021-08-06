@@ -4,18 +4,14 @@ import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
-import Link from 'gatsby-link'
 import ModalComponent from './modal/ModalComponent.jsx'
-/* import { ContactComponent } from './modal/ContactComponent' */
+
 
 
 
 
 const ProductsWester = ({ heading }) => {
-  /* const [showModal, setShowModal] = useState(false);
-  const openModal = () => {
-    setShowModal(prev => !prev);
-    }; */
+  
   const [modalActive, setModalActive] = useState(false)
   
   const data = useStaticQuery(graphql`
@@ -55,13 +51,13 @@ const ProductsWester = ({ heading }) => {
         productsArray.push(
           
             <ProductCard key={index}>
-                <Link to={item.node.link}>
+                <ImageLink onClick={() => setModalActive(true)}>
                 
                 <ProductImg 
                     
                      alt={item.node.alt}
                      fluid={item.node.img.childImageSharp.fluid}/>
-                </Link>
+                </ImageLink>
                 
                 
                 <ProductInfo>
@@ -71,7 +67,7 @@ const ProductsWester = ({ heading }) => {
                     
                   </TextWrap>
                   
-                  <Button as="a"  href="/Contact"  primary="true" round="true"
+                  <Button onClick={() => setModalActive(true)}  primary="true" round="true"
                   css={`
                   position: absolute; 
                   top: 220px;
@@ -102,7 +98,7 @@ const ProductsWester = ({ heading }) => {
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductsWrapper>{getProducts(data)}</ProductsWrapper>
             <ProductsHeading></ProductsHeading>
-            <Button primary="true" big="true" round="true" onClick={() => setModalActive(true) }>Заказать обратный звонок</Button>
+            {/* <Button primary="true" big="true" round="true" onClick={() => setModalActive(true)}>Заказать обратный звонок</Button> */}
             <ModalComponent active={modalActive} setActive={setModalActive}/>
               
             
@@ -118,7 +114,11 @@ export default ProductsWester
 
 
 
-
+const ImageLink = styled.div`
+  cursor: pointer;
+  height: 100%;
+  max-width: 100%;
+`
 
 const ProductsContainer = styled.div`
     min-height: 50vh;

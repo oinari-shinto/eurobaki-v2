@@ -1,13 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
-import Link from 'gatsby-link'
+import ModalComponent from './modal/ModalComponent.jsx'
 
 
 const ProductsZilmet = ({ heading }) => {
+
+  const [modalActive, setModalActive] = useState(false)
+
 const data = useStaticQuery(graphql`
  query ProductsQueryZilmet {
     
@@ -38,18 +41,18 @@ function getProducts(data) {
     data.allProductsJson.edges.forEach((item, index) => {
         productsArray.push(
             <ProductCard key={index}>
-                <Link to={item.node.link}>
+                <ImageLink onClick={() => setModalActive(true)}>
                 <ProductImg 
                     
                      alt={item.node.alt}
                      fluid={item.node.img.childImageSharp.fluid}/>
-                </Link>
+                </ImageLink>
                 <ProductInfo>
                   <TextWrap>
                     <ImLocation />
                     <ProductTitle to="/Zilmet">{item.node.name}</ProductTitle>
                   </TextWrap>
-                  <Button to='/products' primary="true" round="true"
+                  <Button onClick={() => setModalActive(true)} primary="true" round="true"
                   css={`
                   position: absolute; 
                   top: 220px;
@@ -69,7 +72,7 @@ function getProducts(data) {
           
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductsWrapper>{getProducts(data)}</ProductsWrapper>
-        
+            <ModalComponent active={modalActive} setActive={setModalActive}/>
         </ProductsContainer>
     )
 }
@@ -78,7 +81,11 @@ export default ProductsZilmet
 
 
 
-
+const ImageLink = styled.div`
+  cursor: pointer;
+  height: 100%;
+  max-width: 100%;
+`
 
 const ProductsContainer = styled.div`
     min-height: 50vh;
