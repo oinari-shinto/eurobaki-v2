@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
+
 import styled from 'styled-components'
 import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
-import ModalComponent from './modal/ModalComponent.jsx'
 
+import ModalComponent from './modal/ModalComponent'
 
 const ProductsZilmet = ({ heading }) => {
 

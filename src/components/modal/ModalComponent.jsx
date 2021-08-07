@@ -1,11 +1,12 @@
 import React from 'react'
-import "./modalComponent.css"
+
 
 import styled from 'styled-components'
 import { MdClose } from 'react-icons/md'
 import ImageFr from '../../assets/images/email3.jpg'
 import { Button } from '../Button'
 import emailjs from 'emailjs-com'
+import "./modalComponent.css"
 
 const ModalComponent = ({active, setActive}) => {
     function sendEmail(e) {
