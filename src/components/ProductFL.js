@@ -7,7 +7,7 @@ import {ImLocation} from 'react-icons/im'
 
 import ModalComponent from './modal/ModalComponent'
 
-const ProductsFlamco = ({ heading }) => {
+const ProductFL = ({ heading }) => {
 
   const [modalActive, setModalActive] = useState(false)
 
@@ -34,8 +34,7 @@ const data = useStaticQuery(graphql`
     }
   }
 `)
-// for productImg
-// src={item.node.img.childImageSharp.fluid}
+
 function getProducts(data) {
     const productsArray = []
     data.allProductsJson.edges.forEach((item, index) => {
@@ -66,6 +65,7 @@ function getProducts(data) {
     return productsArray
 }
 
+
     return (
         <ProductsContainer>
           
@@ -76,7 +76,8 @@ function getProducts(data) {
     )
 }
 
-export default ProductsFlamco
+export default ProductFL
+
 
 
 const ImageLink = styled.div`
@@ -85,9 +86,8 @@ const ImageLink = styled.div`
   max-width: 100%;
 `
 
-
 const ProductsContainer = styled.div`
-    min-height: 80vh;
+    min-height: 50vh;
     padding: 5rem calc((100vw - 1300px) / 2);
     background: transparent ;
     color: #fff;
