@@ -85,7 +85,7 @@ function getProducts(data) {
 
     return (
         <ProductsContainer>
-            <ProductsHeading >{heading}</ProductsHeading>
+            <ProductsHeading id="table">{heading}</ProductsHeading>
             <ProductsWrapper className="prodAnime">{getProducts(data)}</ProductsWrapper>
         </ProductsContainer>
     )
