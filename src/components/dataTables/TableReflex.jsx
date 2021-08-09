@@ -272,11 +272,9 @@ const TableReflex = () => {
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                       </tbody>
-                      <tbody>
-                      <tr></tr>
-                        
-                        
-                        
+                      </Table>
+                      <Table responsive striped bordered>
+                      <tbody>                      
                         <tr>
                         <td colSpan="8" ><p>Расширительные баки Reflex DE (сменная мембрана)</p></td>
                         </tr>
