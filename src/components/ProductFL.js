@@ -4,7 +4,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
-
+import { Link } from 'react-scroll'
 import ModalComponent from './modal/ModalComponent'
 
 const ProductFL = ({ heading }) => {
@@ -40,12 +40,12 @@ function getProducts(data) {
     data.allProductsJson.edges.forEach((item, index) => {
         productsArray.push(
             <ProductCard key={index}>
-                <ImageLink onClick={() => setModalActive(true)}>
+                <Link to="table">
                 <ProductImg 
                     
                      alt={item.node.alt}
                      fluid={item.node.img.childImageSharp.fluid}/>
-                </ImageLink>
+                </Link>
                 <ProductInfo>
                   <TextWrap>
                     <ImLocation />
@@ -80,11 +80,11 @@ export default ProductFL
 
 
 
-const ImageLink = styled.div`
+/* const ImageLink = styled.div`
   cursor: pointer;
   height: 100%;
   max-width: 100%;
-`
+` */
 
 const ProductsContainer = styled.div`
     min-height: 50vh;

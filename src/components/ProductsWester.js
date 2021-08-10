@@ -5,7 +5,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import { Button } from './Button'
 import {ImLocation} from 'react-icons/im'
-
+import { Link } from 'react-scroll'
 
 import ModalComponent from './modal/ModalComponent'
 
@@ -52,13 +52,13 @@ const ProductsWester = ({ heading }) => {
         productsArray.push(
           
             <ProductCard key={index}>
-                <ImageLink onClick={() => setModalActive(true)}>
+                <Link to={item.node.link}>
                 
                 <ProductImg 
                     
                      alt={item.node.alt}
                      fluid={item.node.img.childImageSharp.fluid}/>
-                </ImageLink>
+                </Link>
                 
                 
                 <ProductInfo>
@@ -115,11 +115,11 @@ export default ProductsWester
 
 
 
-const ImageLink = styled.div`
+/* const ImageLink = styled.div`
   cursor: pointer;
   height: 100%;
   max-width: 100%;
-`
+` */
 
 const ProductsContainer = styled.div`
     min-height: 50vh;

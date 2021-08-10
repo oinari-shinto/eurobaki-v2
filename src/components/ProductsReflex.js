@@ -75,11 +75,11 @@ function getProducts(data) {
 
 export default ProductsReflex
 
-const ImageLink = styled.div`
+/* const ImageLink = styled.div`
   cursor: pointer;
   height: 100%;
   max-width: 100%;
-`
+` */
 
 const ProductsContainer = styled.div`
     min-height: 50vh;

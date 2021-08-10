@@ -46,7 +46,7 @@ const TableWester = () => {
         <div >
             <TableSetting>
                <Container>
-                  <Table id="table"  responsive striped bordered>
+                  <Table id="table1"  responsive striped bordered>
                       <thead>
                         <tr>
                           <th>Model / Объем, л</th>
@@ -185,7 +185,7 @@ const TableWester = () => {
                         <tr></tr>
                       </tbody>
                       </Table>
-                      <Table responsive striped bordered>
+                      <Table id="table2" responsive striped bordered>
                       <tbody>
                         <tr>
                         <td colSpan="8" ><p>Расширительные баки Wester WAV для водоснабжения</p></td>

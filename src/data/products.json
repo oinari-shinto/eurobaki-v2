@@ -43,7 +43,7 @@
         "alt": "Wester WRV",
         "name": "Wester WRV",
         "button": "Купить",
-        "link": "/Contact",
+        "link": "table1",
         "page": "main",
         "mark": "Wester"
         
@@ -53,7 +53,7 @@
         "alt": "Wester WAV",
         "name": "Wester WAV",
         "button": "Купить",
-        "link": "/Contact",
+        "link": "table2",
         "page": "main",
         "mark": "Wester"
         
