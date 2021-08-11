@@ -6226,6 +6226,11 @@
   dependencies:
     "joi" "^17.2.1"
 
+"gatsby-plugin-yandex-metrika@^2.5.0":
+  "integrity" "sha512-2dJr9qpAwrKJTNGtr5FJDMIkQd3Kd5l4iNOMGZodvfe5uv7lgy9WH7uoFDeeFSvsg7cg+SKAKETPN1hEUry+zg=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-yandex-metrika/-/gatsby-plugin-yandex-metrika-2.5.0.tgz"
+  "version" "2.5.0"
+
 "gatsby-react-router-scroll@^4.6.0":
   "integrity" "sha512-sgg55OmxAlLzFCrpx9C01QgVNiSVGgLKvrAVlsN8UxltNZSO+iw4f5/Gd3vOSyb6sNYVJCYnmfvQ6uV2pZs3bg=="
   "resolved" "https://registry.npmjs.org/gatsby-react-router-scroll/-/gatsby-react-router-scroll-4.6.0.tgz"
@@ -6358,7 +6363,7 @@
     "semver" "^7.3.4"
     "sharp" "^0.28.0"
 
-"gatsby@^3.0.0-next.0", "gatsby@^3.0.1":
+"gatsby@^1.0.0 || >2.0.0-alpha", "gatsby@^3.0.0-next.0", "gatsby@^3.0.1":
   "integrity" "sha512-gzwnyk37sGTrT/oqAWKbfwJCPeLWOlX5wgq2pumCJDOGBo0yjL95pRiBeH1GG3jQGadcx2lG/6MoM46M6v3w9A=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-3.6.2.tgz"
   "version" "3.6.2"
