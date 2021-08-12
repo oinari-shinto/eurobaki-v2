@@ -14,6 +14,7 @@ const Contact = () => {
     return (
         <Layout>
             <Seo title="Contact" />
+            <div></div>
             <ContactSection HeaderMark="Адреса наших складов и пунктов выдачи"/>
             
             
