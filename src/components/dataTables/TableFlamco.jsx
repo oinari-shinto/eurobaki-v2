@@ -105,7 +105,7 @@ const TableFlamco = () => {
                         </tr>
                         <tr>
                           <td>Flexcon R 1000/1,5</td>
-                          <td><b>69 800 руб.</b></td> 
+                          <td><b>81 900 руб.</b></td> 
                           <td>790</td>
                           <td>2270</td>
                           <td>1</td>
