@@ -23,7 +23,7 @@ import TableZilmet from "../components/dataTables/TableZilmet"
 const Zilmet = () => (
   <Layout>
     <Seo title="Zilmet" />
-    <Hero HeaderMark="Продажа и изготовление расширительных баков Zilmet"/>
+    <Hero HeaderMark="Продажа и изготовление расширительных баков Zilmet" ButtonName="Прайс"/>
     <ProductsZilmet heading="Zilmet"/>
     <TableZilmet />
     <Certificates />

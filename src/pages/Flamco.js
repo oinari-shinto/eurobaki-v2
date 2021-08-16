@@ -22,7 +22,7 @@ import ProductFL from "../components/ProductFL"
 const Flamco = () => (
   <Layout>
     <Seo title="Flamco" />
-    <Hero HeaderMark="Продажа и изготовление расширительных баков Flamco"/>
+    <Hero HeaderMark="Продажа и изготовление расширительных баков Flamco" ButtonName="Прайс"/>
     <ProductFL heading="Flamco"/>
     <TableFlamco />
     <Certificates />

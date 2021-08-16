@@ -8,7 +8,7 @@ import { ContactComponent } from './modal/ContactComponent'
 
 import { Link } from 'react-scroll'
 
-export const Hero = ({HeaderMark}) => {
+export const Hero = ({HeaderMark, ButtonName}) => {
     const [showModal, setShowModal] = useState(false);
 
     const openModal = () => {
@@ -28,7 +28,7 @@ export const Hero = ({HeaderMark}) => {
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <br/>
                     <PriceButton>
-                        <Link to="table" smooth={true} duration={1000}><Button  primary="true" big="true" round="true">Прайс</Button></Link>            
+                        <Link to="table" smooth={true} duration={1000}><Button  primary="true" big="true" round="true">{ButtonName}</Button></Link>            
                     </PriceButton>
                     
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />

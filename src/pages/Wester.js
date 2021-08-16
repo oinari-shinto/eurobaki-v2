@@ -23,7 +23,7 @@ const Wester = () => (
   <Layout>
     
     <Seo title="Wester" />
-    <Hero HeaderMark="Продажа и изготовление расширительных баков Wester"/>
+    <Hero HeaderMark="Продажа и изготовление расширительных баков Wester" ButtonName="Прайс"/>
     <ProductsWester heading="Wester"/>
     
     <TableWester  />

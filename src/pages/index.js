@@ -22,7 +22,7 @@ const IndexPage = () =>  {
     return (
     <Layout >
       <Seo title="Home" />
-      <Hero HeaderMark="Продажа и изготовление расширительных баков"/>
+      <Hero HeaderMark="Продажа и изготовление расширительных баков" ButtonName="Выбрать бак"/>
       <Products  heading="Выберите расширительный бак"/>
       <Certificates  />
       <Stats  />
