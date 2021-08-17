@@ -15,8 +15,8 @@ const Footer = () => {
                
                 <FooterLinkItems>
                     <FooterLinkTitle>Объекты</FooterLinkTitle>
-                    <FooterLink to="/Contact">Фото</FooterLink>
-                    <FooterLink to="/Contact">Видео</FooterLink>
+                    <FooterLink to="/PhotoVideo">Фото</FooterLink>
+                    <FooterLink to="/PhotoVideo">Видео</FooterLink>
                     
             </FooterLinkItems>
             </FooterLinksWrapper>

@@ -5,7 +5,8 @@ import { Link } from "gatsby"
 import Layout from "../layouts/MainLayout"
 import Seo from "../components/Seo"
 import Email from "../components/Email"
-import {ContactSection} from '../components/ContactSection'
+import { PhotoVideoSection } from '../components/PhotoVideoSection'
+
 
 
 
@@ -14,7 +15,7 @@ const PhotoVideo = () => {
     return (
         <Layout>
             <Seo title="Foto Video" />
-            <div></div>
+            <PhotoVideoSection HeaderMark="В процессе загрузки"/>
             
             
             
