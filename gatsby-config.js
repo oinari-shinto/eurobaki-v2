@@ -3,6 +3,7 @@ module.exports = {
     title: `Gatsby React Tank`,
     description: `Производство и продажа расширительных баков.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://www.eurobaki.ru`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,6 +11,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
