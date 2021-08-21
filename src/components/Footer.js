@@ -25,7 +25,7 @@ const Footer = () => {
                     <FooterLinkTitle>Расширительные баки</FooterLinkTitle>
                     <FooterLink to="/Contact">Оплата</FooterLink>
                     <FooterLink to="/Contact">Доставка</FooterLink>
-                    <FooterLink to="/">Гарантии</FooterLink>
+                    <FooterLink to="/Contact">Гарантии</FooterLink>
                 </FooterLinkItems>
             
             <FooterLinkItems>

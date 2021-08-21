@@ -25,7 +25,17 @@ export const ContactSection = ({HeaderMark}) => {
                    
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
+                    <GarantyInfo>
+                        <br/>
+                        Гарантийные обязательства:<br/>
+                        <br/>
+                        Поставляемая нами продукция является официальной и  подлежит обязательной сертификации. С сертификатами качества можно ознакомиться на нашем сайте в каждом разделе расширительных баков<br/>
+                        Гарантийные обязательства распространяются на весь товар и действуют в течение года с момента отгрузки. Для некоторых групп товаров производителем предоставляется расширенная гарантия. Более полная информация при оформлении заказа.<br/>
+                        Гарантия не распространяется на случаи, когда монтаж произведен компанией, не имеющей лицензии на данный вид работ, и перестает действовать при нарушении инструкций по монтажу и эксплуатации.<br/>
+                        Гарантийное и послегарантийное сервисное обслуживание осуществляются авторизованными сервисными центрами (АСЦ) производителей оборудования.<br/>
+                    </GarantyInfo>
                 </HeroItems>
+                
             </HeroContent>
         </HeroContainer>
     )
@@ -114,6 +124,15 @@ const HeroItems = styled.div`
     color: #fff;
     line-height:  1.1;
     font-weight: bold;
+`
+
+const GarantyInfo = styled.div`
+     text-align: left;
+    padding: 0 1rem;
+    opacity: 1;
+    font-size: clamp(0.5rem, 2vw, 1rem);
+    margin-bottom: 2rem;
+    font-weight: 400;
 `
 // const HeroH1 = styled.h1`
 //     font-size: clamp(1.5rem, 6vw, 4rem);
