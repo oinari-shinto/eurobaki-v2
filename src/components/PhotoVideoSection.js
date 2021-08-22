@@ -5,7 +5,7 @@ import Image from '../assets/images/testTank.jpg'
 
 
 import { ContactComponent } from './modal/ContactComponent'
-import ContactInfo from './animeComponents/ContactInfo'
+
 
 export const PhotoVideoSection = ({HeaderMark}) => {
     const [showModal, setShowModal] = useState(false);
@@ -115,14 +115,4 @@ const HeroItems = styled.div`
     line-height:  1.1;
     font-weight: bold;
 `
-// const HeroH1 = styled.h1`
-//     font-size: clamp(1.5rem, 6vw, 4rem);
-//     margin-bottom: 1.5rem;
-//     letter-spacing: 1px;
-//     padding: 0 1rem;
-// `
-// const HeroP = styled.p`
-//     font-size: clamp(1rem, 3vw, 3rem);
-//     margin-bottom: 2rem;
-//     font-weight: 400;
-// `
+
