@@ -320,6 +320,66 @@ const TableWester = () => {
                         </tr>
                       </tbody>
                   </Table>
+                  <Table id="table2" responsive striped bordered>
+                      <tbody>
+                        <tr>
+                        <td colSpan="8" ><p>Расширительные баки Wester WAV для водоснабжения</p></td>
+                        </tr>
+                     
+                        <tr>
+                        <td colSpan="2" ><p></p></td>
+                        </tr>
+                        <tr >
+                          <td>Мембрана для бака Wester WAV 750</td>
+                          <td><b>40 700 руб.</b></td>
+                          
+                          
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Wester WAV 1000</td>
+                          <td><b>59 600 руб.</b></td>
+                         
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Wester WAV 1500</td>
+                          <td><b>87 700 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Wester WAV 2000</td>
+                          <td><b>150 100 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Wester WAV 2500</td>
+                          <td><b>214 100 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Wester WAV 3000</td>
+                          <td><b>219 700 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Wester WAV 4000</td>
+                          <td><b>223 300 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака WesterWAV 5000</td>
+                          <td><b>252 600 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака WesterWAV 10 000</td>
+                          <td><b>650 500 руб.</b></td> 
+                          
+                          
+                        </tr>
+                      </tbody>
+                  </Table>
                 </Container>
             </TableSetting>
             
