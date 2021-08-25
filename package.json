@@ -23,6 +23,7 @@
     "gatsby-plugin-sitemap": "^4.8.0",
     "gatsby-plugin-styled-components": "^4.2.0",
     "gatsby-plugin-yandex-metrika": "^2.5.0",
+    "gatsby-source-apiserver": "^2.1.8",
     "gatsby-source-filesystem": "^3.0.0",
     "gatsby-transformer-json": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
