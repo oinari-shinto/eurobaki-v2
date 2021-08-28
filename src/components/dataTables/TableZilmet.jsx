@@ -144,6 +144,61 @@ const TableZilmet = () => {
                         </tr>
                       </tbody>
                   </Table>
+                  <Table id="table2" responsive striped bordered>
+                      <tbody>
+                        <tr>
+                        <td colSpan="8" ><p>Мембраны для баков Zilmet</p></td>
+                        </tr>
+                     
+                        <tr>
+                        <td colSpan="2" ><p></p></td>
+                        </tr>
+                        <tr >
+                          <td>Мембрана для бака Zilmet 750</td>
+                          <td><b>15 700 руб.</b></td>
+                          
+                          
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 1000</td>
+                          <td><b>26 600 руб.</b></td>
+                         
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 1500</td>
+                          <td><b>47 700 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 2000</td>
+                          <td><b>49 100 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 2500</td>
+                          <td><b>62 100 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 3000</td>
+                          <td><b>82 700 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 4000</td>
+                          <td><b>123 300 руб.</b></td> 
+                          
+                        </tr>
+                        <tr>
+                          <td>Мембрана для бака Zilmet 5000</td>
+                          <td><b>155 600 руб.</b></td> 
+                          
+                        </tr>
+                        
+                      </tbody>
+                  </Table>
                 </Container>
             </TableSetting>
             
