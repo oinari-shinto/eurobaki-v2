@@ -161,11 +161,11 @@ const TableZilmet = () => {
                           <td><b>126 500 руб.</b></td>   
                         </tr>
                         <tr>
-                          <td>Мембрана для бака Zilmet 3000</td>
+                          <td>Мембрана EPDM 3000 л, 1800300002 Zilmet </td>
                           <td><b>269 134 руб.</b></td> 
                         </tr> 
                         <tr>
-                          <td>Мембрана для бака Zilmet 5000</td>
+                          <td>Мембрана EPDM 5000 л, 1800300002 Zilmet</td>
                           <td><b>472 758 руб.</b></td> 
                         </tr>
                         
