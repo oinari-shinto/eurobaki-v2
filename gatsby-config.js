@@ -11,7 +11,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
     'gatsby-plugin-robots-txt',
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,6 +25,10 @@ module.exports = {
         name: `video`,
         path: `${__dirname}/src/assets/videos`,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      
     },
 
     {
