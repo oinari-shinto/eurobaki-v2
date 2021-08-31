@@ -13,6 +13,55 @@ module.exports = {
     `gatsby-plugin-sharp`,
     'gatsby-plugin-robots-txt',
     {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/",
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          allWpContentNode(filter: {nodeType: {in: ["Post", "Page"]}}) {
+            nodes {
+              ... on WpPost {
+                uri
+                modifiedGmt
+              }
+              ... on WpPage {
+                uri
+                modifiedGmt
+              }
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+          allWpContentNode: { nodes: allWpNodes },
+        }) => {
+          const wpNodeMap = allWpNodes.reduce((acc, node) => {
+            const { uri } = node
+            acc[uri] = node
+
+            return acc
+          }, {})
+
+          return allPages.map(page => {
+            return { ...page, ...wpNodeMap[page.path] }
+          })
+        },
+        serialize: ({ path, modifiedGmt }) => {
+          return {
+            url: path,
+            lastmod: modifiedGmt,
+          }
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -26,11 +75,6 @@ module.exports = {
         path: `${__dirname}/src/assets/videos`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      
-    },
-
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
