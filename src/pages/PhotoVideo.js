@@ -14,7 +14,7 @@ import { PhotoVideoSection } from '../components/PhotoVideoSection'
 const PhotoVideo = () => {
     return (
         <Layout>
-            <Seo title="Foto Video" />
+            <Seo title="Foto Video" description="Видео и фото объектов по расширительным бакам"/>
             <PhotoVideoSection HeaderMark="В процессе загрузки"/>
             
             

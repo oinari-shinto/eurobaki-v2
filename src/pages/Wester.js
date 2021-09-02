@@ -22,7 +22,7 @@ import ProductsWester from "../components/ProductsWester"
 const Wester = () => (
   <Layout>
     
-    <Seo title="Wester" />
+    <Seo title="Wester" description="Расширительные баки Wester"/>
     <Hero HeaderMark="Продажа и изготовление расширительных баков Wester" ButtonName="Прайс"/>
     <ProductsWester heading="Wester"/>
     

@@ -22,7 +22,7 @@ import CertificatesReflex from "../components/CertificatesReflex"
 
 const Reflex = () => (
   <Layout>
-    <Seo title="Reflex" />
+    <Seo title="Reflex" description="Расширительные баки Reflex"/>
     <Hero HeaderMark="Поставки расширительных баков Reflex из Германии" ButtonName="Прайс"/>
     <ProductsReflex heading="Reflex"/>
     <TableReflex />
