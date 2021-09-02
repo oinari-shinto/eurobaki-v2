@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby React Tank`,
+    title: `Расширительные баки`,
     description: `Производство и продажа расширительных баков.`,
-    author: `@gatsbyjs`,
+    author: `@oinarishinto`,
     siteUrl: `https://www.eurobaki.ru`,
   },
   plugins: [
