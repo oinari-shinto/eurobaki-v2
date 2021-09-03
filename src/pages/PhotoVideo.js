@@ -16,18 +16,9 @@ const PhotoVideo = () => {
         <Layout>
             <Seo title="Foto Video" description="Видео и фото объектов по расширительным бакам"/>
             <PhotoVideoSection HeaderMark="В процессе загрузки"/>
-            
-            
-            
-            
-           
-            
-            
             <Email />
             <Link to="/">На главную</Link>
-            
-            
-      </Layout>
+        </Layout>
     )
 }
 
