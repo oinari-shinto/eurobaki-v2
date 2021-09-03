@@ -5,9 +5,7 @@ import { Link } from "gatsby"
 import Layout from "../layouts/MainLayout"
 import Seo from "../components/Seo"
 
-
 import { Hero } from "../components/Hero"
-
 import Certificates from "../components/CertificatesWester"
 import Stats from "../components/Stats"
 import Email from "../components/Email"
@@ -28,7 +26,7 @@ const Wester = () => (
     
     <TableWester  />
     <Certificates />
-    {/* <PresentationSection /> */}
+    
     <Stats />
     <Email />
     <Link to="/">На главную</Link>

@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
 import Layout from "../layouts/MainLayout"
 import Seo from "../components/Seo"
-
 
 import { Hero } from "../components/Hero"
 
@@ -26,7 +24,6 @@ const Flamco = () => (
     <ProductFL heading="Flamco"/>
     <TableFlamco />
     <Certificates />
-    
     <Stats />
     <Email />
     <Link to="/">На главную</Link>
