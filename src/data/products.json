@@ -4,7 +4,7 @@
         "alt": "Reflex",
         "name": "Reflex",
         "button": "Цены",
-        "link": "/Reflex",
+        "link": "/reflex",
         "mark": "Reflex-main",
         "page": "main"
     },
@@ -13,7 +13,7 @@
         "alt": "Flamco",
         "name": "Flamco",
         "button": "Цены",
-        "link": "/Flamco",
+        "link": "/flamco",
         "page": "main",
         "mark": "Flamco-main"
     },
@@ -22,7 +22,7 @@
         "alt": "Zilmet Ultra Pro",
         "name": "Zilmet Ultra Pro",
         "button": "Цены",
-        "link": "/Zilmet",
+        "link": "/zilmet",
         "page": "main",
         "mark": "Zilmet-main"
     },
@@ -31,7 +31,7 @@
         "alt": "Wester",
         "name": "Wester",
         "button": "Цены",
-        "link": "/Wester",
+        "link": "/wester",
         "page": "main",
         "mark": "Wester-main"
         
@@ -64,7 +64,7 @@
         "alt": "Reflex",
         "name": "Reflex",
         "button": "Купить",
-        "link": "/Reflex",
+        "link": "/reflex",
         "mark": "Reflex",
         "page": "main"
     },
@@ -74,7 +74,7 @@
         "alt": "Zilmet Ultra Pro",
         "name": "Zilmet Ultra Pro",
         "button": "Купить",
-        "link": "/Zilmet",
+        "link": "/zilmet",
         "page": "main",
         "mark": "Zilmet"
     },
@@ -85,7 +85,7 @@
         "alt": "Flamco",
         "name": "Flamco",
         "button": "Купить",
-        "link": "/Flamco",
+        "link": "/flamco",
         "page": "main",
         "mark": "Flamco"
     },
@@ -97,7 +97,7 @@
         "alt": "Wester WRV 1500",
         "name": "Wester WRV 1500",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/wester",
         "mark": "Wester"
         
     },
@@ -106,7 +106,7 @@
         "alt": "Wester WRV 2000",
         "name": "Wester WRV 2000",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/wester",
         "mark": "Wester"
         
     },
@@ -115,7 +115,7 @@
         "alt": "Wester WRV 2500",
         "name": "Wester WRV 2500",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/wester",
         "mark": "Wester"
         
     },
@@ -124,7 +124,7 @@
         "alt": "Wester WRV 3000",
         "name": "Wester WRV 3000",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/wester",
         "mark": "Wester"
         
     },
@@ -133,7 +133,7 @@
         "alt": "Wester WRV 5000",
         "name": "Wester WRV 5000",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/wester",
         "mark": "Wester"
         
     },
@@ -142,7 +142,7 @@
         "alt": "Wester WRV 10 000",
         "name": "Wester WRV 10 000",
         "button": "Купить",
-        "link": "/Wester",
+        "link": "/wester",
         "mark": "Wester"
         
     }
