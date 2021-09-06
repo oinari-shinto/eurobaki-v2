@@ -16,24 +16,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.defaults({ease: "none", duration: 2});
 
 const CertificatesZilmet = () => {
-    /* const tl = gsap.timeline();
-    useEffect(() => {
-      
-      tl.from('.container', {xPercent: 0});
-        
-    
-    ScrollTrigger.create({
-      animation: tl,
-      trigger: ".container",
-      start: "top top",
-      end: "+=400",
-      scrub: true,
-      pin: true,
-      anticipatePin: 1
-    })
-    }, []) */
-
-    
     const data = useStaticQuery (
         graphql`
       query {
@@ -109,9 +91,6 @@ const CertificatesZilmet = () => {
                 </ColumOne>
                 
                 <ContainerScroll>
-               
-                {/* <HorizontalScroll> */}
-                {/* <Scrollable _class="data"> */}
                     <ColumTwo >                           
                         <Carousel>
                            {data.slideShow.edges.map(({node}) => (
@@ -122,13 +101,8 @@ const CertificatesZilmet = () => {
                            ))}
                         </Carousel>          
                     </ColumTwo>
-               {/*  </Scrollable> */}
-               {/*  </HorizontalScroll> */}
-                
-                </ContainerScroll>
-                
-            </ContentWrapper>
-            
+                </ContainerScroll>    
+            </ContentWrapper>   
         </CertificatesContainer>
         
     )

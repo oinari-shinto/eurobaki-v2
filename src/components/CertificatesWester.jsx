@@ -16,24 +16,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.defaults({ease: "none", duration: 2});
 
 const Certificates = () => {
-    /* const tl = gsap.timeline();
-    useEffect(() => {
-      
-      tl.from('.container', {xPercent: 0});
-        
-    
-    ScrollTrigger.create({
-      animation: tl,
-      trigger: ".container",
-      start: "top top",
-      end: "+=400",
-      scrub: true,
-      pin: true,
-      anticipatePin: 1
-    })
-    }, []) */
-
-    
     const data = useStaticQuery (
         graphql`
       query {
@@ -103,14 +85,10 @@ const Certificates = () => {
                         • Давление в воздушной полости баков от 8 до 150л – 1,5 бара, от 750 до 10 000л –4бара. <br /> 
                         • Баки от 200 до 10 000 литров могут изготавливаться в специальном исполнении 16 бар, 25 бар. 
                         </p>
-                    </Certificate>
-                    
+                    </Certificate>     
                 </ColumOne>
                 
                 <ContainerScroll>
-               
-                {/* <HorizontalScroll> */}
-                {/* <Scrollable _class="data"> */}
                     <ColumTwo >                           
                         <Carousel>
                            {data.slideShow.edges.map(({node}) => (
@@ -121,13 +99,8 @@ const Certificates = () => {
                            ))}
                         </Carousel>          
                     </ColumTwo>
-               {/*  </Scrollable> */}
-               {/*  </HorizontalScroll> */}
-                
-                </ContainerScroll>
-                
-            </ContentWrapper>
-            
+                </ContainerScroll>             
+            </ContentWrapper>          
         </CertificatesContainer>
         
     )
