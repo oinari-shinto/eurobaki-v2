@@ -3,7 +3,7 @@ export const menuData = [
     {title: "Wester", link: "/Wester"},
     {title: "Reflex", link: "/Reflex"},
     {title: "Zilmet", link: "/Zilmet"},
-    {title: "Flamco", link: "/Flamco"},
+    {title: "Flamco", link: "/flamco"},
     {title: "Контакты", link: "/Contact"},
     /* {title: "Прайс", link: "/page-2"}, */
 ]
