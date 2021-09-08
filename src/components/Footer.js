@@ -15,23 +15,23 @@ const Footer = () => {
                
                 <FooterLinkItems>
                     <FooterLinkTitle>Объекты</FooterLinkTitle>
-                    <FooterLink to="/photovideo">Фото</FooterLink>
-                    <FooterLink to="/photovideo">Видео</FooterLink>
+                    <FooterLink to="/PhotoVideo">Фото</FooterLink>
+                    <FooterLink to="/PhotoVideo">Видео</FooterLink>
                     
             </FooterLinkItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
             <FooterLinkItems>
                     <FooterLinkTitle>Расширительные баки</FooterLinkTitle>
-                    <FooterLink to="/contact">Оплата</FooterLink>
-                    <FooterLink to="/contact">Доставка</FooterLink>
-                    <FooterLink to="/contact">Гарантии</FooterLink>
+                    <FooterLink to="/Contact">Оплата</FooterLink>
+                    <FooterLink to="/Contact">Доставка</FooterLink>
+                    <FooterLink to="/Contact">Гарантии</FooterLink>
                 </FooterLinkItems>
             
             <FooterLinkItems>
                     <FooterLinkTitle>Как с нами связаться</FooterLinkTitle>
-                    <FooterLink to="/contact">Контакты</FooterLink>
-                    <FooterLink to="/contact">Поддержка</FooterLink>
+                    <FooterLink to="/Contact">Контакты</FooterLink>
+                    <FooterLink to="/Contact">Поддержка</FooterLink>
                     <FooterLink to="/">Оставить заявку</FooterLink>
                 </FooterLinkItems>
            
