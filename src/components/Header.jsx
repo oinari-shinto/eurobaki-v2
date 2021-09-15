@@ -17,7 +17,7 @@ const Header = ({toggle}) => {
 
   return (
     <Nav>
-      <NavLink to="/">EuroBaki </NavLink>
+      <NavLink to="/">EuroBaki</NavLink>
       <MenuBars onClick={toggle}/>
       <NavMenu>
         {menuData.map((item, index) => (
