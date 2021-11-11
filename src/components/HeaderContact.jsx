@@ -33,6 +33,9 @@ const Nav2 = styled.nav`
   z-index: 3;
   position: relative;
 
+  @media screen and (max-width: 768px ) {
+    display: none;
+  }
 
 `
 
