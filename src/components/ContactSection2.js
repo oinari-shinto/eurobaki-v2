@@ -5,9 +5,9 @@ import Image from '../assets/images/warehouse.jpg'
 
 
 import { ContactComponent } from './modal/ContactComponent'
-import ContactInfo from './animeComponents/ContactInfo'
 
-export const ContactSection = ({HeaderMark}) => {
+
+export const ContactSection2 = ({HeaderMark}) => {
     const [showModal, setShowModal] = useState(false);
 
     const openModal = () => {
@@ -15,15 +15,13 @@ export const ContactSection = ({HeaderMark}) => {
     };
     return (
         <HeroContainer>
-            <HeroBg>
-                <VideoBg src={Image} type="image/jpg" no-repeat center/>
-            </HeroBg>
+            
             <HeroContent>
                 <HeroItems>
-                    <ContactInfo HeaderMark={HeaderMark}/>
+                    
                     
                    
-                   {/*  <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
+                    <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
                     <GarantyInfo>
                         <br/>
@@ -34,7 +32,7 @@ export const ContactSection = ({HeaderMark}) => {
                         Гарантия не распространяется на случаи, когда монтаж произведен компанией, не имеющей лицензии на данный вид работ, и перестает действовать при нарушении инструкций по монтажу и эксплуатации.<br/>
                         Гарантийное и послегарантийное сервисное обслуживание осуществляются авторизованными сервисными центрами (АСЦ) производителей оборудования.<br/>
                         <br/>
-                    </GarantyInfo> */}
+                    </GarantyInfo>
                 </HeroItems>
                 
             </HeroContent>
@@ -46,43 +44,23 @@ export const ContactSection = ({HeaderMark}) => {
 
 
 const HeroContainer = styled.div`
-   /*  background: url('../assets/images/warehouse.jpg') center center/cover no-repeat; */
-   /* background: linear-gradient(
-            180deg, rgba(0,0,0,0.5) 0%, 
-            rgba(0,0,0,0.5) 35%, 
-            rgba(0,0,0, 0.1) 100%
-            ),
-            url(${Image}) no-repeat center; */
-            
+  
+    background-color: white;       
     background-size: cover;   
-    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2); */
+    
     object-fit: contain;
     display: flex;
     justify-content: center;
     
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     
     padding: 0 1rem;
     position: relative;
     margin-top: -80px;
     
 
-   /*  :before {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        z-index: 2;
-        background: linear-gradient(
-            180deg, 
-            rgba(0,0,0,0.2) 0%, 
-            rgba(0,0,0,0.6) 100%
-        ),
-        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
-    } */
+  
     @media screen and (max-width: 280px) {
     padding: 0 1rem;
     box-sizing: border-box;
@@ -90,22 +68,8 @@ const HeroContainer = styled.div`
   }
 `
 
-const HeroBg = styled.div`
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-`
-const VideoBg = styled.image`
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-`
+
+
 const HeroContent = styled.div`
     z-index: 2;
     height: calc(100vh - 80px);
@@ -128,21 +92,12 @@ const HeroItems = styled.div`
 `
 
 const GarantyInfo = styled.div`
-     text-align: left;
+    color: black;
+    text-align: left;
     padding: 0 1rem;
     opacity: 1;
     font-size: clamp(0.5rem, 2vw, 1rem);
     margin-bottom: 2rem;
     font-weight: 400;
 `
-// const HeroH1 = styled.h1`
-//     font-size: clamp(1.5rem, 6vw, 4rem);
-//     margin-bottom: 1.5rem;
-//     letter-spacing: 1px;
-//     padding: 0 1rem;
-// `
-// const HeroP = styled.p`
-//     font-size: clamp(1rem, 3vw, 3rem);
-//     margin-bottom: 2rem;
-//     font-weight: 400;
-// `
+

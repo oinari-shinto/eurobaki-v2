@@ -33,8 +33,8 @@ export default function HeroH1({HeaderMark}) {
   return (
     <AnimeHeader className="headerAnime">
       <HeaderH1>{HeaderMark}</HeaderH1>
-      <HeroP>Завод производство. Доставка по России</HeroP>
-      <HeroP>почта: info@30bar.ru <br/>тел: 8 (812) 317-00-32</HeroP>
+      <TextContainer>Завод производство. Доставка по России</TextContainer>
+      <TextContainer>почта: <p>info@30bar.ru </p><br/>тел: <HeroP>8 (812) 317-00-32</HeroP></TextContainer>
     </AnimeHeader>
     
   );
@@ -56,6 +56,12 @@ const HeroP = styled.p`
     margin-bottom: 2rem;
     font-weight: 400;
     cursor: pointer;
+`
+const TextContainer = styled.p`
+  opacity: 1;
+    font-size: clamp(1rem, 3vw, 3rem);
+    margin-bottom: 2rem;
+    font-weight: 400;
 `
 // export default function HeroH1({HeaderMark}) {
     
