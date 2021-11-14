@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from "gatsby"
-
-
 import Layout from "../layouts/MainLayout"
 import Seo from "../components/Seo"
 import Email from "../components/Email"

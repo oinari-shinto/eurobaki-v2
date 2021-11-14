@@ -1,6 +1,6 @@
 export default [
     {
-      name: 'Rare Wind',
+      name: 'WRV 1000',
       description: '#a8edea → #fed6e3',
       css: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
       height: 700,
@@ -16,7 +16,7 @@ export default [
 
     },
     {
-      name: 'Deep Blue',
+      name: 'WRV 1000 bak',
       description: '#e0c3fc → #8ec5fc',
       css: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
       height: 400,
@@ -24,7 +24,7 @@ export default [
 
     },
     {
-      name: 'Ripe Malinka',
+      name: 'WRV 1000 bak kupit',
       description: '#f093fb → #f5576c',
       css: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
       height: 400,
@@ -32,7 +32,7 @@ export default [
 
     },
     {
-      name: 'Perfect White',
+      name: 'WRV 1000 bak spb',
       description: '#fdfbfb → #ebedee',
       css: 'linear-gradient(135deg, #E3FDF5 0%, #FFE6FA 100%)',
       height: 400,
@@ -40,7 +40,7 @@ export default [
 
     },
     {
-      name: 'Near Moon',
+      name: 'WRV 1000 bak rasshiritelnii',
       description: '#5ee7df → #b490ca',
       css: 'linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)',
       height: 400,
@@ -48,7 +48,7 @@ export default [
 
     },
     {
-      name: 'Wild Apple',
+      name: 'WRV 1000 bak opt',
       description: '#d299c2 → #fef9d7',
       css: 'linear-gradient(135deg, #d299c2 0%, #fef9d7 100%)',
       height: 200,

@@ -1,5 +1,4 @@
 import * as React from "react"
-
 import Layout from "../layouts/MainLayout"
 import Seo from "../components/Seo"
 
