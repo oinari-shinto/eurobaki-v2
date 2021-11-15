@@ -15,7 +15,7 @@ const Contact = () => {
             <Seo title="Contact" description="ООО 30 БАР контактная информация"/>
             <div></div>
             <ContactSection HeaderMark="Адреса наших складов и пунктов выдачи"/>
-            <ContactSection2 />
+            {/* <ContactSection2 /> */}
             <Email />
             <Link to="/">На главную</Link>    
       </Layout>

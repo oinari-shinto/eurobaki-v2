@@ -2,10 +2,8 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
 import Image from '../assets/images/warehouse.jpg'
-
-
-import { ContactComponent } from './modal/ContactComponent'
 import ContactInfo from './animeComponents/ContactInfo'
+import { ContactComponent } from './modal/ContactComponent'
 
 export const ContactSection = ({HeaderMark}) => {
     const [showModal, setShowModal] = useState(false);
@@ -23,7 +21,7 @@ export const ContactSection = ({HeaderMark}) => {
                     <ContactInfo HeaderMark={HeaderMark}/>
                     
                    
-                   {/*  <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
+                    <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
                     <GarantyInfo>
                         <br/>
@@ -34,7 +32,7 @@ export const ContactSection = ({HeaderMark}) => {
                         Гарантия не распространяется на случаи, когда монтаж произведен компанией, не имеющей лицензии на данный вид работ, и перестает действовать при нарушении инструкций по монтажу и эксплуатации.<br/>
                         Гарантийное и послегарантийное сервисное обслуживание осуществляются авторизованными сервисными центрами (АСЦ) производителей оборудования.<br/>
                         <br/>
-                    </GarantyInfo> */}
+                    </GarantyInfo>
                 </HeroItems>
                 
             </HeroContent>
@@ -53,7 +51,7 @@ const HeroContainer = styled.div`
             rgba(0,0,0, 0.1) 100%
             ),
             url(${Image}) no-repeat center; */
-            
+    background-color: grey;        
     background-size: cover;   
     /* box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2); */
     object-fit: contain;
@@ -61,7 +59,7 @@ const HeroContainer = styled.div`
     justify-content: center;
     
     align-items: center;
-    height: 100vh;
+    height: 130vh;
     
     padding: 0 1rem;
     position: relative;

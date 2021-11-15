@@ -23,6 +23,7 @@ export const ContactSection2 = ({HeaderMark}) => {
                    
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
                     <ContactComponent showModal={showModal} setShowModal={setShowModal} />
+                   
                     <GarantyInfo>
                         <br/>
                         Гарантийные обязательства:<br/>
@@ -40,12 +41,46 @@ export const ContactSection2 = ({HeaderMark}) => {
     )
 }
 
+const LeftCol2 = styled.div`
+  float: left; 
+  width: 49%
+`
+const RightCol2 = styled.div`
+  float: right; 
+  width: 49%
+`
 
+const InfoColumn = styled.div`
+  float: left;
+  width: 100%
+`
+const LeftCol = styled.div`
+  float: left;
+  width: 33%
+`
+const CentrCol = styled.div`
+  float: left;
+  width: 33%
+`
+const RightCol = styled.div`
+  float: left;
+  width: 33%
+`
 
+const HeroP = styled.p`
+    text-align: left;
+    padding: 0 1rem;
+    opacity: 1;
+    font-size: clamp(0.5rem, 2vw, 1rem);
+    margin-bottom: 2rem;
+    font-weight: 400;
+    
+    
+`
 
 const HeroContainer = styled.div`
   
-    background-color: white;       
+    background-color: grey;       
     background-size: cover;   
     
     object-fit: contain;
@@ -53,7 +88,7 @@ const HeroContainer = styled.div`
     justify-content: center;
     
     align-items: center;
-    height: 50vh;
+    height: 80vh;
     
     padding: 0 1rem;
     position: relative;
