@@ -126,8 +126,8 @@ const HeroItems = styled.div`
 `
 
 const GarantyInfo = styled.div`
-     text-align: left;
-    padding: 0 1rem;
+    text-align: left;
+    padding: 0 2rem;
     opacity: 1;
     font-size: clamp(0.5rem, 2vw, 1rem);
     margin-bottom: 2rem;
