@@ -127,7 +127,15 @@ export default function ContactInfo
   );
 }
 
-const AnimeHeader = styled.div``
+const AnimeHeader = styled.div`
+  
+
+  @media screen and (max-width: 480px) {
+    padding: 0 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+`
 
 const LeftCol2 = styled.div`
   float: left; 
