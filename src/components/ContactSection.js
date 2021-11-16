@@ -44,16 +44,16 @@ export const ContactSection = ({HeaderMark}) => {
 
 
 const HeroContainer = styled.div`
-   /*  background: url('../assets/images/warehouse.jpg') center center/cover no-repeat; */
-   /* background: linear-gradient(
+   background: url('../assets/images/warehouse.jpg') center center/cover no-repeat; 
+   background: linear-gradient(
             180deg, rgba(0,0,0,0.5) 0%, 
             rgba(0,0,0,0.5) 35%, 
             rgba(0,0,0, 0.1) 100%
             ),
-            url(${Image}) no-repeat center; */
-    background-color: grey;        
+            url(${Image}) no-repeat center; 
+    /* background-color: grey;   */      
     background-size: cover;   
-    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2); */
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2); 
     object-fit: contain;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ const HeroContainer = styled.div`
     margin-top: -80px;
     
 
-   /*  :before {
+    :before {
         content: "";
         position: absolute;
         top: 0;
@@ -80,7 +80,7 @@ const HeroContainer = styled.div`
             rgba(0,0,0,0.6) 100%
         ),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
-    } */
+    }
     @media screen and (max-width: 480px) {
     padding: 0 1rem;
     box-sizing: border-box;
@@ -128,6 +128,7 @@ const HeroItems = styled.div`
 const GarantyInfo = styled.div`
     text-align: left;
     padding: 0 2rem;
+    margin-top: 2rem;
     opacity: 1;
     font-size: clamp(0.5rem, 2vw, 1rem);
     margin-bottom: 2rem;
