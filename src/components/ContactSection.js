@@ -81,7 +81,7 @@ const HeroContainer = styled.div`
         ),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
     } */
-    @media screen and (max-width: 280px) {
+    @media screen and (max-width: 480px) {
     padding: 0 1rem;
     box-sizing: border-box;
     max-width: 100%;
