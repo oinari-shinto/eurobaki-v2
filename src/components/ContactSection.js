@@ -18,7 +18,7 @@ export const ContactSection = ({HeaderMark}) => {
             </HeroBg>
             <HeroContent>
                 <HeroItems>
-                    {/* <ContactInfo HeaderMark={HeaderMark}/> */}
+                    <ContactInfo HeaderMark={HeaderMark}/>
                     
                    
                     <Button primary="true" big="true" round="true" onClick={openModal}>Заказать обратный звонок</Button>
