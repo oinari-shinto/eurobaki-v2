@@ -59,7 +59,7 @@ const HeroContainer = styled.div`
     justify-content: center;
     
     align-items: center;
-    height: 130vh;
+    height: 100vh;
     
     padding: 0 1rem;
     position: relative;
@@ -81,10 +81,11 @@ const HeroContainer = styled.div`
         ),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 780px) {
     padding: 0 1rem;
     box-sizing: border-box;
     max-width: 100%;
+    height: 250vh;
   }
 `
 
