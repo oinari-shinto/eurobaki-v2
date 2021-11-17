@@ -128,7 +128,7 @@ export default function ContactInfo
 }
 
 const AnimeHeader = styled.div`
-  
+  margin-top: 2rem;
 
   @media screen and (max-width: 480px) {
     padding: 0 1rem;
