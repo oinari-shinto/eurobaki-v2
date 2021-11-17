@@ -59,7 +59,7 @@ const HeroContainer = styled.div`
     justify-content: center;
     
     align-items: center;
-    height: 100vh;
+    height: 650;
     
     padding: 0 1rem;
     position: relative;
@@ -82,10 +82,11 @@ const HeroContainer = styled.div`
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100% )
     }
     @media screen and (max-width: 780px) {
+    
     padding: 0 1rem;
     box-sizing: border-box;
     max-width: 100%;
-    height: 250vh;
+    height: 650;
   }
 `
 
@@ -107,9 +108,9 @@ const VideoBg = styled.image`
 `
 const HeroContent = styled.div`
     z-index: 2;
-    height: calc(100vh - 80px);
+    /* height: calc(100vh - 80px);
     max-height: 100%;
-    padding: 0rem calc((100vw - 1300px) / 2);
+    padding: 0rem calc((100vw - 1300px) / 2); */
     
 `
 const HeroItems = styled.div`
@@ -118,7 +119,7 @@ const HeroItems = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 650;
     max-height: 100%;
     padding: 0;
     color: #fff;

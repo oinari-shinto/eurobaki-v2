@@ -129,6 +129,7 @@ export default function ContactInfo
 
 const AnimeHeader = styled.div`
   margin-top: 2rem;
+  height: 650;
 
   @media screen and (max-width: 480px) {
     padding: 0 1rem;
@@ -176,6 +177,7 @@ const HeroP = styled.p`
     font-size: clamp(0.5rem, 2vw, 1rem);
     margin-bottom: 2rem;
     font-weight: 400;
+    height: 1250;
     
 `
 
