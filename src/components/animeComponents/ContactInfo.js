@@ -61,18 +61,18 @@ export default function ContactInfo
           
           <br/>
           Адреса складов:<br/>
-
+          Санкт-Петербург:(склад) ул.Домостроительная д.4<br/>
+          Москва: М.О. Шаховской рн <br/>
+             
+              
+              
+              <br/>
           
       </HeroP>
       <HeroP>
           <InfoColumn >
           <LeftCol>
-              Санкт-Петербург:(склад)<br/>
-              ул.Домостроительная д.4<br/>
-              Санкт-Петербург:<br/> 
-              Тихорецкий_пр.17б<br/>
-              Москва,Шаховской_рн <br/>
-              <br/>
+              
               Терминал{" "}ТК:<br/>
               <br/>
               Белгород<br/>
@@ -181,7 +181,7 @@ const HeaderH1 = styled.h1`
     padding-top: 100px;
 `
 const HeroP = styled.p`
-    text-align: center;
+    text-align: left;
     padding: 0 1rem;
     opacity: 1;
     font-size: clamp(0.2rem, 1vw, 1rem);
