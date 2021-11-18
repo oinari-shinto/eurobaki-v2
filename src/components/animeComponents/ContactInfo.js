@@ -41,7 +41,6 @@ export default function ContactInfo
           Склады во всех крупных городах <br/>
           info@30bar.ru   <br/>
           Доставка по России бесплатно! <br/>
-          30 bar (ООО "30 БАР") <br/>
           Отгрузка в день оплаты! <br/>
           Оплата по счёту / банковским переводом <br/>
           <br/>
@@ -83,41 +82,40 @@ export default function ContactInfo
               Воронеж<br/>
               Иваново<br/>
               Ижевск<br/>
-          </LeftCol>
-          
-          <CentrCol>
-          Терминал ТК:<br/>
-          <br/>
               Казань<br/>
               Калуга<br/>
               Карелия<br/>
               Краснодар<br/>
               Курск<br/>
               Липецк<br/>
-              Наб.Челны<br/>
-              Н.Новгород<br/>
-              Новороссийск<br/>
-              Новосибирск<br/>
+          </LeftCol>
+          
+          <CentrCol>
+          Терминал ТК:<br/>
+          <br/>
               Оренбург<br/>
               Орёл<br/>
               Омск<br/>
               Пенза<br/>
               Псков<br/>
               Пятигорск<br/>
-          </CentrCol>
-          <RightCol>
-              Терминал ТК:<br/>
-              <br/>
-              Ростов-на-Дону<br/>
               Рязань<br/>
               Самара<br/>
               Смоленск<br/>
-              Свердл. обл.<br/>
               Сочи<br/>
               Ставрополь<br/>
               Тамбов<br/>
               Тверь<br/>
               Тюмень<br/>
+          </CentrCol>
+          <RightCol>
+              Терминал ТК:<br/>
+              <br/>
+              Наб.Челны<br/>
+              Н.Новгород<br/>
+              Новороссийск<br/>
+              Новосибирск<br/>
+              Ростов-на-Дону<br/>
               Тольятти<br/>
               Тула<br/>
               Ульяновск<br/>
@@ -184,7 +182,7 @@ const HeroP = styled.p`
     text-align: left;
     padding: 0 1rem;
     opacity: 1;
-    font-size: clamp(0.2rem, 1vw, 1rem);
+    font-size: clamp(0.5rem, 2vw, 2rem);
     margin-bottom: 2rem;
     /* font-weight: 400; */
     height: 1250;
