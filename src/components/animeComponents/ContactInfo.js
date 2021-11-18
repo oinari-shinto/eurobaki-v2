@@ -181,10 +181,10 @@ const HeaderH1 = styled.h1`
     padding-top: 100px;
 `
 const HeroP = styled.p`
-    text-align: left;
+    text-align: center;
     padding: 0 1rem;
     opacity: 1;
-    font-size: clamp(0.45rem, 1vw, 1rem);
+    font-size: clamp(0.5rem, 2vw, 1rem);
     margin-bottom: 2rem;
     /* font-weight: 400; */
     height: 1250;
