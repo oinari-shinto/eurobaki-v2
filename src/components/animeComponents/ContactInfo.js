@@ -73,7 +73,7 @@ export default function ContactInfo
               Тихорецкий_пр.17б<br/>
               Москва,Шаховской_рн <br/>
               <br/>
-              Терминал ТК:<br/>
+              Терминал{" "}ТК:<br/>
               <br/>
               Белгород<br/>
               Брянск<br/>
@@ -84,6 +84,7 @@ export default function ContactInfo
               Иваново<br/>
               Ижевск<br/>
           </LeftCol>
+          
           <CentrCol>
           Терминал ТК:<br/>
           <br/>
@@ -162,7 +163,7 @@ const InfoColumn = styled.div`
 `
 const LeftCol = styled.div`
   float: left;
-  width: 33%
+  width: 35%
 `
 const CentrCol = styled.div`
   float: left;
@@ -170,7 +171,7 @@ const CentrCol = styled.div`
 `
 const RightCol = styled.div`
   float: left;
-  width: 33%
+  width: 30%
 `
 const HeaderH1 = styled.h1`
     opacity: 1;
