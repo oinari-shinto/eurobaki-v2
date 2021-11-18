@@ -163,15 +163,15 @@ const InfoColumn = styled.div`
 `
 const LeftCol = styled.div`
   float: left;
-  width: 50%
+  width: 33%
 `
 const CentrCol = styled.div`
   float: left;
-  width: 25%
+  width: 33%
 `
 const RightCol = styled.div`
   float: left;
-  width: 25%
+  width: 33%
 `
 const HeaderH1 = styled.h1`
     opacity: 1;
@@ -184,9 +184,9 @@ const HeroP = styled.p`
     text-align: left;
     padding: 0 1rem;
     opacity: 1;
-    font-size: clamp(0.5rem, 2vw, 1rem);
+    font-size: clamp(0.5rem, 1.5vw, 1rem);
     margin-bottom: 2rem;
-    font-weight: 400;
+    /* font-weight: 400; */
     height: 1250;
     
 `
