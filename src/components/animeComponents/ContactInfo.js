@@ -150,16 +150,16 @@ const AnimeHeader = styled.div`
 
 const LeftCol2 = styled.div`
   float: left; 
-  width: 49%
+  width: 40%
 `
 const RightCol2 = styled.div`
   float: right; 
-  width: 49%
+  width: 40%
 `
 
 const InfoColumn = styled.div`
   float: left;
-  width: 100%
+  width: 100%;
 `
 const LeftCol = styled.div`
   float: left;
