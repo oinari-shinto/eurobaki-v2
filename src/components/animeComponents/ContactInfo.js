@@ -163,15 +163,15 @@ const InfoColumn = styled.div`
 `
 const LeftCol = styled.div`
   float: left;
-  width: 35%
+  width: 50%
 `
 const CentrCol = styled.div`
   float: left;
-  width: 33%
+  width: 25%
 `
 const RightCol = styled.div`
   float: left;
-  width: 30%
+  width: 25%
 `
 const HeaderH1 = styled.h1`
     opacity: 1;
