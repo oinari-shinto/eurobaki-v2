@@ -146,14 +146,14 @@ const AnimeHeader = styled.div`
   }
 `
 
-const LeftCol2 = styled.div`
+/* const LeftCol2 = styled.div`
   float: left; 
   width: 30%
 `
 const RightCol2 = styled.div`
   float: right; 
   width: 50%
-`
+` */
 
 const InfoColumn = styled.div`
   float: left;
