@@ -141,7 +141,7 @@ const TableReflex = () => {
                         </tr>
                         <tr>
                           <td>Reflex N1000</td>
-                          <td><b>76 935 руб.</b></td>
+                          <td><b>128 000 руб.</b></td>
                           <td>740</td>
                           <td>2410</td>
                           <td>1</td>
