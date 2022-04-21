@@ -37,7 +37,7 @@ const TableZilmet = () => {
                       </tr>
                       <tr>
                           <td>ULTRA-PRO 200</td>
-                          <td><b>28 900 руб.</b></td>
+                          <td><b>34 680 руб.</b></td>
                           <td>550</td>
                           <td>1235</td>
                           <td>1 1/2''</td>
@@ -48,7 +48,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 300</td>
-                          <td><b>33 200 руб.</b></td>
+                          <td><b>39 840 руб.</b></td>
                           <td>630</td>
                           <td>1365</td>
                           <td>1 1/2''</td>
@@ -58,7 +58,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 500</td>
-                          <td><b>54 800 руб.</b></td>
+                          <td><b>65 760 руб.</b></td>
                           <td>750</td>
                           <td>1560</td>
                           <td>1 1/2''</td>
@@ -71,7 +71,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr >
                           <td>ULTRA-PRO 750</td>
-                          <td><b>86 600 руб.</b></td>
+                          <td><b>103 920 руб.</b></td>
                           <td>750</td>
                           <td>2075</td>
                           <td>1 1/2''</td>
@@ -83,7 +83,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 1000</td>
-                          <td><b>116 500 руб.</b></td>
+                          <td><b>139 800 руб.</b></td>
                           <td>850</td>
                           <td>2100</td>
                           <td>1 1/2''</td>
@@ -94,7 +94,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 1500</td>
-                          <td><b>219 800 руб.</b></td> 
+                          <td><b>263 760 руб.</b></td> 
                           <td>960</td>
                           <td>2420</td>
                           <td>2</td>
@@ -104,7 +104,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 2000</td>
-                          <td><b>295 800 руб.</b></td> 
+                          <td><b>354 960 руб.</b></td> 
                           <td>1100</td>
                           <td>2553</td>
                           <td>2</td>
@@ -114,7 +114,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 3000</td>
-                          <td><b>539 800 руб.</b></td> 
+                          <td><b>647 760 руб.</b></td> 
                           <td>1200</td>
                           <td>2800</td>
                           <td>3</td>
@@ -124,7 +124,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 4000</td>
-                          <td><b>738 300 руб.</b></td> 
+                          <td><b>885 960 руб.</b></td> 
                           <td>1450</td>
                           <td>3180</td>
                           <td>3</td>
@@ -134,7 +134,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 5000</td>
-                          <td><b>829 100 руб.</b></td> 
+                          <td><b>994 920 руб.</b></td> 
                           <td>1450</td>
                           <td>3700</td>
                           <td>3</td>
@@ -154,19 +154,19 @@ const TableZilmet = () => {
                         </tr>
                         <tr >
                           <td>Мембрана BUTIL 750-1000 л, 260100006 Zilmet</td>
-                          <td><b>60 947 руб.</b></td>
+                          <td><b>73 100 руб.</b></td>
                         </tr>
                         <tr>
                           <td>Мембрана EPDM 1500-2000 л, 1800150003 Zilmet</td>
-                          <td><b>166 500 руб.</b></td>   
+                          <td><b>199 800 руб.</b></td>   
                         </tr>
                         <tr>
                           <td>Мембрана EPDM 3000 л, 1800300002 Zilmet </td>
-                          <td><b>339 134 руб.</b></td> 
+                          <td><b>406 960 руб.</b></td> 
                         </tr> 
                         <tr>
                           <td>Мембрана EPDM 5000 л, 1800300002 Zilmet</td>
-                          <td><b>572 758 руб.</b></td> 
+                          <td><b>687 300 руб.</b></td> 
                         </tr>
                         
                       </tbody>
