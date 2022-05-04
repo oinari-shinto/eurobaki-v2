@@ -129,7 +129,7 @@ const TableWester = () => {
               <tr>
                 <td>WRV 1000</td>
                 <td>
-                  <b>129 500 руб.</b>
+                  <b>119 500 руб.</b>
                 </td>
                 <td>780</td>
                 <td>2280</td>
@@ -223,7 +223,7 @@ const TableWester = () => {
               <tr>
                 <td>WAV 200</td>
                 <td>
-                  <b>19 680 руб.</b>
+                  <b>23 680 руб.</b>
                 </td>
                 <td>580</td>
                 <td>1120</td>
@@ -238,7 +238,7 @@ const TableWester = () => {
               <tr>
                 <td>WAV 300</td>
                 <td>
-                  <b>21 300 руб.</b>
+                  <b>25 900 руб.</b>
                 </td>
                 <td>660</td>
                 <td>1170</td>
@@ -250,7 +250,7 @@ const TableWester = () => {
               <tr>
                 <td>WAV 500</td>
                 <td>
-                  <b>35 200 руб.</b>
+                  <b>42 200 руб.</b>
                 </td>
                 <td>780</td>
                 <td>1390</td>
@@ -267,7 +267,7 @@ const TableWester = () => {
               <tr>
                 <td>WAV 750</td>
                 <td>
-                  <b>83 700 руб.</b>
+                  <b>100 700 руб.</b>
                 </td>
                 <td>780</td>
                 <td>1880</td>
