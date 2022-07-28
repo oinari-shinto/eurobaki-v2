@@ -36,6 +36,16 @@
         "mark": "Wester-main"
         
     },
+    {
+        "img": "../assets/images/masDaf-1000.png",
+        "alt": "MasDaf",
+        "name": "MasDaf",
+        "button": "Цены",
+        "link": "/MasDaf",
+        "page": "main",
+        "mark": "MasDaf-main"
+        
+    },
 
     
     {

@@ -7,14 +7,14 @@ import {ImLocation} from 'react-icons/im'
 import { Link } from 'react-scroll'
 import ModalComponent from './modal/ModalComponent'
 
-const ProductMas = ({ heading }) => {
+const ProductMasDaf = ({ heading }) => {
 
   const [modalActive, setModalActive] = useState(false)
 
 const data = useStaticQuery(graphql`
- query ProductsQueryMas {
+ query ProductsQueryMasDaf {
     
-    allProductsJson (filter: {mark: {eq: "Mas"}}) {
+    allProductsJson (filter: {mark: {eq: "MasDaf"}}) {
       edges {
         node {
           alt
@@ -49,7 +49,7 @@ function getProducts(data) {
                 <ProductInfo>
                   <TextWrap>
                     <ImLocation />
-                    <ProductTitle to="/Mas">{item.node.name}</ProductTitle>
+                    <ProductTitle to="/MasDaf">{item.node.name}</ProductTitle>
                   </TextWrap>
                   <Button onClick={() => setModalActive(true)} primary="true" round="true"
                   css={`
@@ -76,7 +76,7 @@ function getProducts(data) {
     )
 }
 
-export default ProductMas
+export default ProductMasDaf
 
 
 
