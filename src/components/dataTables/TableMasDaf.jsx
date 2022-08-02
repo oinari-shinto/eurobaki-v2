@@ -59,11 +59,11 @@ const TableMasDaf = () => {
             <tbody>
               <tr>
                 <td colSpan='8'>
-                  <p>Расширительные баки MasDaf WRV для отопления</p>
+                  <p>Расширительные баки MasDaf TM-200 для отопления</p>
                 </td>
               </tr>
               <tr>
-                <td>WRV 200</td>
+                <td>TM-200</td>
                 <td>
                   <b>18 800 руб.</b>
                 </td>
@@ -78,7 +78,7 @@ const TableMasDaf = () => {
                 </td>
               </tr>
               <tr>
-                <td>WRV 300</td>
+                <td>TM-300</td>
                 <td>
                   <b>22 400 руб.</b>
                 </td>
@@ -90,7 +90,7 @@ const TableMasDaf = () => {
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 500</td>
+                <td>TM-500</td>
                 <td>
                   <b>39 800 руб.</b>
                 </td>
@@ -107,7 +107,7 @@ const TableMasDaf = () => {
                 </td>
               </tr>
               <tr>
-                <td>WRV 750</td>
+                <td>TM-750</td>
                 <td>
                   <b>95 600 руб.</b>
                 </td>
@@ -127,7 +127,7 @@ const TableMasDaf = () => {
                 </td>
               </tr>
               <tr>
-                <td>WRV 1000</td>
+                <td>TM-1000</td>
                 <td>
                   <b color='red'>112 500 руб.</b>
                 </td>
@@ -139,7 +139,7 @@ const TableMasDaf = () => {
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 1500</td>
+                <td>TM-1500</td>
                 <td>
                   <b>280 300 руб.</b>
                 </td>
@@ -151,7 +151,7 @@ const TableMasDaf = () => {
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 2000</td>
+                <td>TM-2000</td>
                 <td>
                   <b>404 780 руб.</b>
                 </td>
@@ -163,7 +163,7 @@ const TableMasDaf = () => {
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 2500</td>
+                <td>TM-2500</td>
                 <td>
                   <b>425 174 руб.</b>
                 </td>
@@ -175,7 +175,7 @@ const TableMasDaf = () => {
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 3000</td>
+                <td>TM-3000</td>
                 <td>
                   <b>438 380 руб.</b>
                 </td>
@@ -187,7 +187,7 @@ const TableMasDaf = () => {
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 5000</td>
+                <td>TM-4000</td>
                 <td>
                   <b>1 051 600 руб.</b>
                 </td>
@@ -199,7 +199,7 @@ const TableMasDaf = () => {
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
-                <td>WRV 10 000</td>
+                <td>TM-5 000</td>
                 <td>
                   <b>1 750 500 руб.</b>
                 </td>
@@ -212,8 +212,8 @@ const TableMasDaf = () => {
               </tr>
               <tr></tr>
             </tbody>
-          </Table>
-          <Table id='table2' responsive striped bordered>
+          {/* </Table>
+          {/* <Table id='table2' responsive striped bordered>
             <tbody>
               <tr>
                 <td colSpan='8'>
@@ -231,7 +231,7 @@ const TableMasDaf = () => {
                 <td>32.4</td>
                 <td>10</td>
                 {/* <td>Сменная(Италия)</td> */}
-                <td rowSpan='3'>
+                {/* <td rowSpan='3'>
                   <img src={ImageTab3} alt='MasDaf WAV 500' width='250px' />
                 </td>
               </tr>
@@ -257,7 +257,7 @@ const TableMasDaf = () => {
                 <td>1 1/4"</td>
                 <td>55.5</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
+                
               </tr>
               <tr>
                 <td colSpan='8'>
@@ -371,6 +371,7 @@ const TableMasDaf = () => {
               </tr>
             </tbody>
           </Table>
+           */}
           <Table id='table2' responsive striped bordered>
             <tbody>
               <tr>
@@ -446,7 +447,7 @@ const TableMasDaf = () => {
               </tr>
               <br />
               <p>
-            Расширительный бак – важная составляющая системы отопления.<br />
+            {/* Расширительный бак – важная составляющая системы отопления.<br />
             Защитите систему с помощью наших надежных и доступных вариантов.<br /> 
             Наши расширительные баки специально разработаны для поддержания<br />
             постоянного давления в системе, уменьшения количества насосов<br />
@@ -454,7 +455,7 @@ const TableMasDaf = () => {
             из-за теплового расширения. Доверьтесь компании, которая гарантирует<br />
             качество нашей продукции 10-летней гарантией. По любым вопросам или<br />
             проблемам, пожалуйста, свяжитесь с нашими представителями по<br />
-            обслуживанию клиентов по телефону или электронной почте.<br />
+            обслуживанию клиентов по телефону или электронной почте.<br /> */}
          </p>
             </tbody>
           </Table>
