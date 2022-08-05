@@ -212,8 +212,9 @@ const TableMasDaf = () => {
               </tr>
               <tr></tr>
             </tbody>
-          {/* </Table>
-          {/* <Table id='table2' responsive striped bordered>
+          
+          </Table>
+           {/*<Table id='table2' responsive striped bordered>
             <tbody>
               <tr>
                 <td colSpan='8'>
@@ -230,8 +231,8 @@ const TableMasDaf = () => {
                 <td>1 1/4"</td>
                 <td>32.4</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
-                {/* <td rowSpan='3'>
+                 <td>Сменная(Италия)</td> 
+                 <td rowSpan='3'>
                   <img src={ImageTab3} alt='MasDaf WAV 500' width='250px' />
                 </td>
               </tr>
@@ -245,7 +246,7 @@ const TableMasDaf = () => {
                 <td>1 1/4"</td>
                 <td>40.3</td>
                 <td>10</td>
-                {/*  <td>Сменная(Италия)</td> */}
+                {/*  <td>Сменная(Италия)</td> 
               </tr>
               <tr>
                 <td>WAV 500</td>
@@ -274,7 +275,8 @@ const TableMasDaf = () => {
                 <td>1 1/4"</td>
                 <td>86</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
+                {/* <td>Сменная(Италия)</td> 
+              <tr>
                 <td rowSpan='9'>
                   <img src={ImageTab4} width='250px' alt='MasDaf WAV 1000' />
                   <p>
@@ -294,8 +296,7 @@ const TableMasDaf = () => {
                 <td>1 1/4"</td>
                 <td>104</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
-              </tr>
+                 <td>Сменная(Италия)</td> 
               <tr>
                 <td>WAV 1500</td>
                 <td>
@@ -306,7 +307,7 @@ const TableMasDaf = () => {
                 <td>2</td>
                 <td>240</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
+                 <td>Сменная(Италия)</td> 
               </tr>
               <tr>
                 <td>WAV 2000</td>
@@ -318,7 +319,7 @@ const TableMasDaf = () => {
                 <td>2</td>
                 <td>375</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
+                <td>Сменная(Италия)</td> 
               </tr>
               <tr>
                 <td>WAV 2500</td>
@@ -330,7 +331,7 @@ const TableMasDaf = () => {
                 <td>2</td>
                 <td>397</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
+                 <td>Сменная(Италия)</td> 
               </tr>
               <tr>
                 <td>WAV 3000</td>
@@ -342,7 +343,7 @@ const TableMasDaf = () => {
                 <td>2 1/2</td>
                 <td>550</td>
                 <td>10</td>
-                {/* <td>Сменная(Италия)</td> */}
+                <td>Сменная(Италия)</td> 
               </tr>
 
               <tr>
@@ -355,7 +356,7 @@ const TableMasDaf = () => {
                 <td>3</td>
                 <td>830</td>
                 <td>10</td>
-                {/*  <td>Сменная(Италия)</td> */}
+                 <td>Сменная(Италия)</td> 
               </tr>
               <tr>
                 <td>WAV 10 000</td>
@@ -367,11 +368,11 @@ const TableMasDaf = () => {
                 <td>4</td>
                 <td>1920</td>
                 <td>10</td>
-                {/*  <td>Сменная(Италия)</td> */}
+                 <td>Сменная(Италия)</td> 
               </tr>
             </tbody>
-          </Table>
-           */}
+          </Table> */}
+           
           <Table id='table2' responsive striped bordered>
             <tbody>
               <tr>
