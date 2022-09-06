@@ -15,7 +15,7 @@ import { Carousel } from 'react-bootstrap'
 gsap.registerPlugin(ScrollTrigger);
 gsap.defaults({ease: "none", duration: 2});
 
-const CertificatesMas = () => {
+const CertificatesMasDaf = () => {
     const data = useStaticQuery (
         graphql`
       query {
@@ -108,7 +108,7 @@ const CertificatesMas = () => {
     )
 }
 
-export default CertificatesMas
+export default CertificatesMasDaf
 
 
 
