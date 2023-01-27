@@ -71,7 +71,7 @@ const TableWester = () => {
                 <td>1037</td>
                 <td>1 1/4</td>
                 <td>32</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
                 <td rowSpan='3'>
                   <img src={ImageTab1} alt='Wester WRV 500' width='250px' />
@@ -86,7 +86,7 @@ const TableWester = () => {
                 <td>1179</td>
                 <td>1 1/4</td>
                 <td>40,3</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -98,7 +98,7 @@ const TableWester = () => {
                 <td>1399</td>
                 <td>1 1/4</td>
                 <td>55.5</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -115,7 +115,7 @@ const TableWester = () => {
                 <td>1880</td>
                 <td>2</td>
                 <td>86</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
                 <td rowSpan='8'>
                   <img src={ImageTab2} alt='Wester WRV 1000' width='250px' />
@@ -135,7 +135,7 @@ const TableWester = () => {
                 <td>2280</td>
                 <td>2</td>
                 <td>104</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -147,7 +147,7 @@ const TableWester = () => {
                 <td>2380</td>
                 <td>2</td>
                 <td>240</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -159,7 +159,7 @@ const TableWester = () => {
                 <td>2450</td>
                 <td>2</td>
                 <td>375</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -171,7 +171,7 @@ const TableWester = () => {
                 <td>2800</td>
                 <td>2</td>
                 <td>397</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -183,7 +183,7 @@ const TableWester = () => {
                 <td>2800</td>
                 <td>2 1/2</td>
                 <td>550</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -195,7 +195,7 @@ const TableWester = () => {
                 <td>3720</td>
                 <td>3</td>
                 <td>830</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -207,7 +207,7 @@ const TableWester = () => {
                 <td>5750</td>
                 <td>4</td>
                 <td>1920</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr></tr>
@@ -229,7 +229,7 @@ const TableWester = () => {
                 <td>1120</td>
                 <td>1 1/4"</td>
                 <td>32.4</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
                 <td rowSpan='3'>
                   <img src={ImageTab3} alt='Wester WAV 500' width='250px' />
@@ -244,7 +244,7 @@ const TableWester = () => {
                 <td>1170</td>
                 <td>1 1/4"</td>
                 <td>40.3</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -256,7 +256,7 @@ const TableWester = () => {
                 <td>1390</td>
                 <td>1 1/4"</td>
                 <td>55.5</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -273,7 +273,7 @@ const TableWester = () => {
                 <td>1880</td>
                 <td>1 1/4"</td>
                 <td>86</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
                 <td rowSpan='9'>
                   <img src={ImageTab4} width='250px' alt='Wester WAV 1000' />
@@ -293,7 +293,7 @@ const TableWester = () => {
                 <td>2280</td>
                 <td>1 1/4"</td>
                 <td>104</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -305,7 +305,7 @@ const TableWester = () => {
                 <td>2380</td>
                 <td>2</td>
                 <td>240</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -317,7 +317,7 @@ const TableWester = () => {
                 <td>2450</td>
                 <td>2</td>
                 <td>375</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -329,7 +329,7 @@ const TableWester = () => {
                 <td>2800</td>
                 <td>2</td>
                 <td>397</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -341,7 +341,7 @@ const TableWester = () => {
                 <td>2800</td>
                 <td>2 1/2</td>
                 <td>550</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
 
@@ -354,7 +354,7 @@ const TableWester = () => {
                 <td>3720</td>
                 <td>3</td>
                 <td>830</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -366,7 +366,7 @@ const TableWester = () => {
                 <td>5750</td>
                 <td>4</td>
                 <td>1920</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
             </tbody>

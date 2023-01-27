@@ -71,7 +71,7 @@ const TableMasDaf = () => {
                 <td>1037</td>
                 <td>1 1/4</td>
                 <td>32</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
                 <td rowSpan='3'>
                   <img src={ImageTab1} alt='MasDaf WRV 500' width='250px' />
@@ -86,7 +86,7 @@ const TableMasDaf = () => {
                 <td>1179</td>
                 <td>1 1/4</td>
                 <td>40,3</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -98,7 +98,7 @@ const TableMasDaf = () => {
                 <td>1399</td>
                 <td>1 1/4</td>
                 <td>55.5</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -115,7 +115,7 @@ const TableMasDaf = () => {
                 <td>1880</td>
                 <td>2</td>
                 <td>86</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
                 <td rowSpan='8'>
                   <img src={ImageTab2} alt='MasDaf WRV 1000' width='250px' />
@@ -135,7 +135,7 @@ const TableMasDaf = () => {
                 <td>2280</td>
                 <td>2</td>
                 <td>104</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -147,7 +147,7 @@ const TableMasDaf = () => {
                 <td>2380</td>
                 <td>2</td>
                 <td>240</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -159,7 +159,7 @@ const TableMasDaf = () => {
                 <td>2450</td>
                 <td>2</td>
                 <td>375</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -171,7 +171,7 @@ const TableMasDaf = () => {
                 <td>2800</td>
                 <td>2</td>
                 <td>397</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -183,7 +183,7 @@ const TableMasDaf = () => {
                 <td>2800</td>
                 <td>2 1/2</td>
                 <td>550</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/* <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -195,7 +195,7 @@ const TableMasDaf = () => {
                 <td>3720</td>
                 <td>3</td>
                 <td>830</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr>
@@ -207,7 +207,7 @@ const TableMasDaf = () => {
                 <td>5750</td>
                 <td>4</td>
                 <td>1920</td>
-                <td>10</td>
+                <td>10/16/25</td>
                 {/*  <td>Сменная(Италия)</td> */}
               </tr>
               <tr></tr>
