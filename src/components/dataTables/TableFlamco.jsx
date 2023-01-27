@@ -43,7 +43,7 @@ const TableFlamco = () => {
                           <td>1296</td>
                           <td>1</td>
                           <td>38,10</td>
-                          <td>6</td>
+                          <td>6/10</td>
                           {/* <td>Сменная(Италия)</td> */}
                           <td rowSpan="3" ><img src={ImageTab1} alt="Flamco Flexon R 425" width="200px" /></td>
                         </tr>
@@ -54,7 +54,7 @@ const TableFlamco = () => {
                           <td>1330</td>
                           <td>1</td>
                           <td>56,90</td>
-                          <td>6</td>
+                          <td>6/10</td>
                          {/*  <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -64,7 +64,7 @@ const TableFlamco = () => {
                           <td>1176</td>
                           <td>1</td>
                           <td>79,40</td>
-                          <td>6</td>
+                          <td>6/10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -77,7 +77,7 @@ const TableFlamco = () => {
                           <td>1320</td>
                           <td>1</td>
                           <td>86,70</td>
-                          <td>6</td>
+                          <td>6/10</td>
                           {/* <td>Сменная(Италия)</td> */}
                           <td rowSpan="4"   ><br/><img   src={ImageTab2} alt="Flamco Flexon R 1000" width="100px"     /><p></p></td>
                           
@@ -89,7 +89,7 @@ const TableFlamco = () => {
                           <td>1540</td>
                           <td>1</td>
                           <td>92,90</td>
-                          <td>6</td>
+                          <td>6/10</td>
                           {/* <td>Сменная(Италия)</td> */}
                           
                         </tr>
@@ -100,7 +100,7 @@ const TableFlamco = () => {
                           <td>1890</td>
                           <td>1</td>
                           <td>126,90</td>
-                          <td>6</td>
+                          <td>6/10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -110,7 +110,7 @@ const TableFlamco = () => {
                           <td>2270</td>
                           <td>1</td>
                           <td>145,90</td>
-                          <td>6</td>
+                          <td>6/10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                       </tbody>
