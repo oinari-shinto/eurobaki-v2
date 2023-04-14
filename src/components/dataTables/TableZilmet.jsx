@@ -83,7 +83,7 @@ const TableZilmet = () => {
                         </tr>
                         <tr>
                           <td>ULTRA-PRO 1000</td>
-                          <td><b>139 800 руб.</b></td>
+                          <td><b>170 000 руб.</b></td>
                           <td>850</td>
                           <td>2100</td>
                           <td>1 1/2''</td>
