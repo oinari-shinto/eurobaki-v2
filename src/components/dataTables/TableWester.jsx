@@ -129,7 +129,7 @@ const TableWester = () => {
               <tr>
                 <td>WRV 1000</td>
                 <td>
-                  <b color='red'>112 500 руб.</b>
+                  <b color='red'>118 000 руб.</b>
                 </td>
                 <td>780</td>
                 <td>2280</td>
