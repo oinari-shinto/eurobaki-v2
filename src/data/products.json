@@ -43,21 +43,20 @@
         "button": "Цены",
         "link": "/MasDaf",
         "page": "main",
-        "mark": "MasDaf-main"
+        "mark": "MasDaf-main" 
+    },
+    {
+        "img": "../assets/images/wrv2-1000.jpg",
+        "alt": "Cruwa",
+        "name": "Cruwa",
+        "button": "Цены",
+        "link": "/Cruwa",
+        "page": "main",
+        "mark": "Cruwa-man"
         
     },
 
-    
-    {
-        "img": "../assets/images/wrv2-1000.jpg",
-        "alt": "Wester WRV",
-        "name": "Wester WRV",
-        "button": "Купить",
-        "link": "table1",
-        "page": "main",
-        "mark": "Wester"
-        
-    },
+
     {
         "img": "../assets/images/wav-1000.png",
         "alt": "Wester WAV",
