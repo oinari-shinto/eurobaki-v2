@@ -5,6 +5,7 @@ export const menuData = [
     {title: "Reflex", link: "/Reflex"},
     {title: "Zilmet", link: "/Zilmet"},
     {title: "Flamco", link: "/Flamco"},
+    {title: "Cruwa", link: "/Cruwa"},
     {title: "Контакты", link: "/Contact"},
     /* {title: "Прайс", link: "/page-2"}, */
 ]
