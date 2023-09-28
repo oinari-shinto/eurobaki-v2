@@ -29,7 +29,7 @@ const Products = ({ heading }) => {
   }, [])
 const data = useStaticQuery(graphql`
  query ProductsQuery  {
-    allProductsJson (limit: 4) {
+    allProductsJson (limit: 5) {
       edges {
         node {
           alt
