@@ -16,7 +16,7 @@ import TableCruwa from "../components/dataTables/TableCruwa"
 
 const Cruwa = () => (
   <Layout>
-    <Seo title="Cruwa" description="Расширительные баки Cruwa"/>
+    <Seo title="Cruwa" description="Расширительные баки Cruwa "/>
     <Hero HeaderMark="Продажа и изготовление расширительных баков Cruwa" ButtonName="Прайс"/>
     <ProductsCruwa heading="Cruwa"/>
     <TableCruwa />
