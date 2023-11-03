@@ -42,7 +42,7 @@ const TableCruwa = () => {
                           <td>1235</td>
                           <td>1 1/2''</td>
                           <td>44.5</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                           <td rowSpan="3" ><img src={ImageTab1} alt="CRW Cruwa bak" width="250px" /></td>
                         </tr>
@@ -53,7 +53,7 @@ const TableCruwa = () => {
                           <td>1365</td>
                           <td>1 1/2''</td>
                           <td>54</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                          {/*  <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -63,7 +63,7 @@ const TableCruwa = () => {
                           <td>1560</td>
                           <td>1 1/2''</td>
                           <td>80.8</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -76,19 +76,19 @@ const TableCruwa = () => {
                           <td>2075</td>
                           <td>1 1/2''</td>
                           <td>150</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                           <td rowSpan="7"   ><br/><img   src={ImageTab2} width="250px" alt="CRW Cruwa 1000"/><p>Мембрана: Сменная (Италия)</p></td>
                           
                         </tr>
                         <tr>
                           <td>CRW Cruwa 1000</td>
-                          <td><b>150 000 руб.</b></td>
+                          <td><b>109 400 руб.</b></td>
                           <td>850</td>
                           <td>2100</td>
                           <td>1 1/2''</td>
                           <td>200</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                           
                         </tr>
@@ -99,7 +99,7 @@ const TableCruwa = () => {
                           <td>2420</td>
                           <td>2</td>
                           <td>260</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -109,7 +109,7 @@ const TableCruwa = () => {
                           <td>2553</td>
                           <td>2</td>
                           <td>363</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -119,7 +119,7 @@ const TableCruwa = () => {
                           <td>2800</td>
                           <td>3</td>
                           <td>536</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -129,7 +129,7 @@ const TableCruwa = () => {
                           <td>3180</td>
                           <td>3</td>
                           <td>767</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                           {/* <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
@@ -139,7 +139,7 @@ const TableCruwa = () => {
                           <td>3700</td>
                           <td>3</td>
                           <td>840</td>
-                          <td>10/16/25</td>
+                          <td>10</td>
                          {/*  <td>Сменная(Италия)</td> */}
                         </tr>
                       </tbody>
