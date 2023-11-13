@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 
 
-import ImageTab2 from '../../assets/images/zilmet-ultra-1000.jpg'
-import ImageTab1 from '../../assets/images/zilmet-small.jpg'
+import ImageTab2 from '../../assets/images/cruwa-small.png'
+import ImageTab1 from '../../assets/images/cruwa-large.png'
 
 
 const TableCruwa = () => {
