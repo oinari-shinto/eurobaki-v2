@@ -37,7 +37,7 @@ const TableCruwa = () => {
                       </tr>
                       <tr>
                           <td>CRW Cruwa 200</td>
-                          <td><b>34 680 руб.</b></td>
+                          <td><b>27 100 руб.</b></td>
                           <td>550</td>
                           <td>1235</td>
                           <td>1 1/2''</td>
@@ -48,7 +48,7 @@ const TableCruwa = () => {
                         </tr>
                         <tr>
                           <td>CRW Cruwa 300</td>
-                          <td><b>39 840 руб.</b></td>
+                          <td><b>36 600 руб.</b></td>
                           <td>630</td>
                           <td>1365</td>
                           <td>1 1/2''</td>
@@ -57,8 +57,18 @@ const TableCruwa = () => {
                          {/*  <td>Сменная(Италия)</td> */}
                         </tr>
                         <tr>
+                          <td>CRW Cruwa 400</td>
+                          <td><b>53 300 руб.</b></td>
+                          <td>750</td>
+                          <td>1560</td>
+                          <td>1 1/2''</td>
+                          <td>80.8</td>
+                          <td>10</td>
+                          {/* <td>Сменная(Италия)</td> */}
+                        </tr>
+                        <tr>
                           <td>CRW Cruwa 500</td>
-                          <td><b>55 760 руб.</b></td>
+                          <td><b>62 100 руб.</b></td>
                           <td>750</td>
                           <td>1560</td>
                           <td>1 1/2''</td>
@@ -70,8 +80,32 @@ const TableCruwa = () => {
                         <td colSpan="8" ><p></p></td>
                         </tr>
                         <tr >
+                          <td>CRW Cruwa 600</td>
+                          <td><b>73 600 руб.</b></td>
+                          <td>750</td>
+                          <td>2075</td>
+                          <td>1 1/2''</td>
+                          <td>150</td>
+                          <td>10</td>
+                          {/* <td>Сменная(Италия)</td> */}
+                          <td rowSpan="7"   ><br/><img   src={ImageTab2} width="250px" alt="CRW Cruwa 1000"/><p>Мембрана: Сменная (Италия)</p></td>
+                          
+                        </tr>
+                        <tr >
                           <td>CRW Cruwa 750</td>
-                          <td><b>103 920 руб.</b></td>
+                          <td><b>73 400 руб.</b></td>
+                          <td>750</td>
+                          <td>2075</td>
+                          <td>1 1/2''</td>
+                          <td>150</td>
+                          <td>10</td>
+                          {/* <td>Сменная(Италия)</td> */}
+                          <td rowSpan="7"   ><br/><img   src={ImageTab2} width="250px" alt="CRW Cruwa 1000"/><p>Мембрана: Сменная (Италия)</p></td>
+                          
+                        </tr>
+                        <tr >
+                          <td>CRW Cruwa 800</td>
+                          <td><b>86 100 руб.</b></td>
                           <td>750</td>
                           <td>2075</td>
                           <td>1 1/2''</td>
@@ -83,7 +117,7 @@ const TableCruwa = () => {
                         </tr>
                         <tr>
                           <td>CRW Cruwa 1000</td>
-                          <td><b>109 400 руб.</b></td>
+                          <td><b>108 100 руб.</b></td>
                           <td>850</td>
                           <td>2100</td>
                           <td>1 1/2''</td>
@@ -94,7 +128,7 @@ const TableCruwa = () => {
                         </tr>
                         <tr>
                           <td>CRW Cruwa 1500</td>
-                          <td><b>253 760 руб.</b></td> 
+                          <td><b>207 360 руб.</b></td> 
                           <td>960</td>
                           <td>2420</td>
                           <td>2</td>
@@ -104,7 +138,7 @@ const TableCruwa = () => {
                         </tr>
                         <tr>
                           <td>CRW Cruwa 2000</td>
-                          <td><b>344 960 руб.</b></td> 
+                          <td><b>309 500 руб.</b></td> 
                           <td>1100</td>
                           <td>2553</td>
                           <td>2</td>
@@ -114,7 +148,7 @@ const TableCruwa = () => {
                         </tr>
                         <tr>
                           <td>CRW Cruwa 3000</td>
-                          <td><b>637 760 руб.</b></td> 
+                          <td><b>482 760 руб.</b></td> 
                           <td>1200</td>
                           <td>2800</td>
                           <td>3</td>
@@ -124,7 +158,7 @@ const TableCruwa = () => {
                         </tr>
                         <tr>
                           <td>CRW Cruwa 4000</td>
-                          <td><b>845 960 руб.</b></td> 
+                          <td><b>720 960 руб.</b></td> 
                           <td>1450</td>
                           <td>3180</td>
                           <td>3</td>
